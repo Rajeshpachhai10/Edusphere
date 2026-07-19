@@ -27,7 +27,7 @@ SECRET_KEY = config("SECRET_KEY")
 
 DEBUG = config("DEBUG")
 
-ALLOWED_HOSTS = [ "*"]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "accounts" ,
     "courses" ,
     "enrollments" ,
+    "quizzes",
 ]
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
