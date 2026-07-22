@@ -43,6 +43,7 @@ urlpatterns = [
     path('accounts/', include('accounts.urls')),
     path('courses/', include('courses.urls')),
     path('enrollments/', include('enrollments.urls')),
+    path('quizzes/', include('quizzes.urls', namespace='quizzes')),
     path('', TemplateView.as_view(template_name='home.html'), name='home'),
 ]
 

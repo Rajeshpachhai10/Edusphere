@@ -11,11 +11,15 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="{% url 'home' %}">EduSphere</a>
             <div class="ms-auto d-flex align-items-center">
                 {% if user.is_authenticated %}
+                {% if user.role == 'student' %}
+                <a href="{% url 'enrollments:my_courses' %}" class="btn btn-outline-light btn-sm me-3">My Courses</a>
+                {% endif %}
                 <span class="text-light me-3">
                     {{ user.first_name }}
                     <span class="role-badge {{ user.role }} ms-1">{{ user.role }}</span>
