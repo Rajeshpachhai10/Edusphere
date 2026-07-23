@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "courses" ,
     "enrollments" ,
     "quizzes",
+    "forums",
 ]
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
