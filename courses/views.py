@@ -77,6 +77,16 @@ class InstructorCourseManageView(InstructorRequiredMixin, DetailView):
         return Course.objects.filter(instructor=self.request.user)
 
 
+class InstructorDashboardView(InstructorRequiredMixin, ListView):
+    """Lists all courses taught by the logged-in instructor, with manage links."""
+    model = Course
+    template_name = 'courses/instructor_dashboard.html'
+    context_object_name = 'courses'
+
+    def get_queryset(self):
+        return Course.objects.filter(instructor=self.request.user)
+
+
 def add_module(request, slug):
     course = get_object_or_404(Course, slug=slug, instructor=request.user)
     if request.method == 'POST':

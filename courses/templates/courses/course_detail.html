@@ -15,7 +15,14 @@
 <div class="container mt-5">
     <div class="row g-5">
         <div class="col-md-8">
-            <h4 class="fw-bold mb-3">About this course</h4>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4 class="fw-bold mb-0">About this course</h4>
+                {% if is_enrolled or user.id == course.instructor_id %}
+                <a href="{% url 'forums:thread_list' course.slug %}" class="discussion-tab-badge">
+                    💬 Discussions <span class="discussion-tab-count">{{ course.threads.count }}</span>
+                </a>
+                {% endif %}
+            </div>
             <p>{{ course.description }}</p>
 
             <h4 class="fw-bold mt-5 mb-3">Course Content</h4>
@@ -35,27 +42,6 @@
                         class="accordion-collapse collapse {% if forloop.first %}show{% endif %}"
                         data-bs-parent="#moduleAccordion">
                         <div class="accordion-body pt-2 pb-2">
-                            {% for lesson in module.lessons.all %}
-                            <div class="lesson-row">
-                                <div class="lesson-icon">
-                                    {% if lesson.content_type == 'video' %}🎥{% elif lesson.content_type == 'pdf' %}📄{%
-                                    else %}📝{% endif %}
-                                </div>
-                                {% if is_enrolled %}
-                                <a href="{% url 'enrollments:lesson_detail' course.slug lesson.id %}"
-                                    class="lesson-row-link">
-                                    {{ lesson.title }}
-                                </a>
-                                {% else %}
-                                <span>{{ lesson.title }}</span>
-                                <span class="lesson-locked-icon" title="Enroll to unlock">🔒</span>
-                                {% endif %}
-                                {% if lesson.duration_minutes %}
-                                <span class="text-muted ms-auto" style="font-size: 0.8rem;">{{ lesson.duration_minutes}}
-                                    min</span>
-                                {% endif %}
-                            </div>
-                            {% endfor %}
                             {% for lesson in module.lessons.all %}
                             <div class="lesson-row">
                                 <div class="lesson-icon">
@@ -132,6 +118,18 @@
 
                 <p class="text-muted small text-center mb-0">Full lifetime access</p>
             </div>
+            {% if is_enrolled or user.id == course.instructor_id %}
+            <a href="{% url 'forums:thread_list' course.slug %}" class="discussion-promo-card">
+                <div class="discussion-promo-icon">💬</div>
+                <div class="discussion-promo-text">
+                    <strong>Course Discussions</strong>
+                    <span>{{ course.threads.count }} thread{{ course.threads.count|pluralize }} · Ask questions, get
+                        help</span>
+                </div>
+                <div class="discussion-promo-arrow">→</div>
+            </a>
+            {% endif %}
+
         </div>
     </div>
 </div>

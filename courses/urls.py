@@ -5,6 +5,7 @@ app_name = 'courses'
 
 urlpatterns = [
     path('', views.CourseListView.as_view(), name='course_list'),
+    path('dashboard/', views.InstructorDashboardView.as_view(), name='instructor_dashboard'),
     path('create/', views.CourseCreateView.as_view(), name='course_create'),
     path('manage/<slug:slug>/', views.InstructorCourseManageView.as_view(), name='manage_course'),
     path('manage/<slug:slug>/add-module/', views.add_module, name='add_module'),
