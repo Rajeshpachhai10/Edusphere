@@ -30,6 +30,12 @@ DEBUG = config("DEBUG")
 ALLOWED_HOSTS = ['*']
 
 
+ESEWA_SECRET_KEY = config('ESEWA_SECRET_KEY')
+ESEWA_PRODUCT_CODE = config('ESEWA_PRODUCT_CODE')
+ESEWA_FORM_URL = config('ESEWA_FORM_URL')
+ESEWA_STATUS_CHECK_URL = config('ESEWA_STATUS_CHECK_URL')
+
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -44,6 +50,7 @@ INSTALLED_APPS = [
     "enrollments" ,
     "quizzes",
     "forums",
+    "payments",
 ]
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
