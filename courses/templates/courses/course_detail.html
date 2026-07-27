@@ -103,10 +103,16 @@
                     ✓ Enrolled — Continue Learning
                 </a>
                 {% else %}
+                {% if course.price > 0 %}
+                <a href="{% url 'payments:initiate' course_slug=course.slug %}" class="btn btn-primary w-100 mb-2">
+                    Pay to Enroll — Rs. {{ course.price }}
+                </a>
+                {% else %}
                 <form method="post" action="{% url 'enrollments:enroll' course.slug %}">
                     {% csrf_token %}
                     <button type="submit" class="btn btn-primary w-100 mb-2">Enroll Now</button>
                 </form>
+                {% endif %}
                 {% endif %}
                 {% elif not user.is_authenticated %}
                 <a href="{% url 'accounts:login' %}?next={{ request.path }}" class="btn btn-primary w-100 mb-2">
