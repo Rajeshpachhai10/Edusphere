@@ -51,6 +51,8 @@ INSTALLED_APPS = [
     "quizzes",
     "forums",
     "payments",
+    "dashboard",
+
 ]
 
 AUTH_USER_MODEL = 'accounts.CustomUser'

@@ -46,6 +46,7 @@ urlpatterns = [
     path('quizzes/', include('quizzes.urls', namespace='quizzes')),
     path('forums/', include('forums.urls', namespace='forums')),
     path('payments/', include('payments.urls')),
+    path('dashboard/', include('dashboard.urls')),
     path('', TemplateView.as_view(template_name='home.html'), name='home'),
 ]
 
