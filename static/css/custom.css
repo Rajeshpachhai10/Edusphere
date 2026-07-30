@@ -1557,3 +1557,73 @@ label {
   position: relative;
   padding: 0.8rem 2rem;
 }
+
+/* ===== Course Oversight Table ===== */
+.oversight-filter-bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 1.75rem;
+  flex-wrap: wrap;
+}
+.oversight-search-input {
+  flex: 1;
+  min-width: 220px;
+}
+.oversight-status-select {
+  width: auto;
+}
+.oversight-table-wrapper {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  overflow-x: auto;
+}
+.oversight-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.oversight-table thead {
+  background: #FBFBFC;
+  border-bottom: 1px solid var(--border);
+}
+.oversight-table th {
+  text-align: left;
+  padding: 0.85rem 1.25rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.oversight-table td {
+  padding: 0.85rem 1.25rem;
+  border-top: 1px solid #F0F1F3;
+}
+.oversight-course-title {
+  font-weight: 600;
+  color: var(--text);
+}
+.oversight-pagination {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.oversight-page-info {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+
+/* ===== User Management ===== */
+.status-failed .status-dot { background-color: #DC3545; }
+.btn-danger-outline {
+  color: #DC3545;
+  border-color: rgba(220,53,69,0.3);
+}
+.btn-danger-outline:hover {
+  background: rgba(220,53,69,0.08);
+}
