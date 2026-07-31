@@ -374,11 +374,16 @@ label {
   margin-right: 0.5rem;
 }
 .sticky-enroll-card {
-  position: sticky;
-  top: 90px;
   border-radius: var(--radius);
   border: 1px solid var(--border);
   box-shadow: 0 4px 20px rgba(30,58,95,0.08);
+}
+.course-sidebar-sticky {
+  position: sticky;
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .module-accordion .accordion-button {
   font-weight: 600;
