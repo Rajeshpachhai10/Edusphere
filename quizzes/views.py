@@ -7,6 +7,7 @@ from django.db import transaction
 from courses.models import Module
 from enrollments.models import Enrollment
 from .models import Quiz, Question, QuizAttempt, StudentAnswer, Choice
+from .forms import QuizForm
 
 
 def _get_quiz_or_404(module_id):
@@ -89,3 +90,32 @@ def quiz_result_view(request, attempt_id):
 
     context = {'attempt': attempt}
     return render(request, 'quizzes/quiz_result.html', context)
+
+
+@login_required
+def create_quiz_view(request, module_id):
+    # Same convention used everywhere else in this project: filter the
+    # queryset by ownership, so a wrong instructor gets a 404, not a 403.
+    module = get_object_or_404(Module, id=module_id, course__instructor=request.user)
+
+    # A module can only have one quiz (Quiz.module is a OneToOneField).
+    # hasattr() safely checks "does module.quiz exist?" without crashing —
+    # in plain Python code (not templates), accessing a missing one-to-one
+    # relation normally raises an error; hasattr() catches that for us.
+    if hasattr(module, 'quiz'):
+        messages.info(request, "This module already has a quiz.")
+        return redirect('courses:manage_course', slug=module.course.slug)
+
+    if request.method == 'POST':
+        form = QuizForm(request.POST)
+        if form.is_valid():
+            quiz = form.save(commit=False)
+            quiz.module = module
+            quiz.save()
+            messages.success(request, f"Quiz '{quiz.title}' created. Add its questions from the admin panel.")
+            return redirect('courses:manage_course', slug=module.course.slug)
+    else:
+        form = QuizForm()
+
+    context = {'form': form, 'module': module}
+    return render(request, 'quizzes/create_quiz.html', context)

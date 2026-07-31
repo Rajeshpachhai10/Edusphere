@@ -42,12 +42,16 @@
             <span class="fw-bold">{{ module.order }}. {{ module.title }}</span>
             <a href="{% url 'courses:edit_module' course.slug module.id %}" class="btn-sm-outline ms-auto">Edit</a>
             <a href="{% url 'courses:add_lesson' course.slug module.id %}" class="btn-sm-outline">+ Add Lesson</a>
+            {% if module.quiz %}
+                <span class="btn-sm-outline" style="opacity: 0.6; cursor: default;">✓ Quiz Added</span>
+            {% else %}
+                <a href="{% url 'quizzes:create_quiz' module.id %}" class="btn-sm-outline">+ Add Quiz</a>
+            {% endif %}
         </div>
         {% for lesson in module.lessons.all %}
         <div class="lesson-manage-row">
             <span>
-                {% if lesson.content_type == 'video' %}🎥{% elif lesson.content_type == 'pdf' %}📄{% else %}📝{% endif
-                %}
+                {% if lesson.content_type == 'video' %}🎥{% elif lesson.content_type == 'pdf' %}📄{% else %}📝{% endif %}
                 {{ lesson.title }}
             </span>
             <span class="d-flex align-items-center gap-3">

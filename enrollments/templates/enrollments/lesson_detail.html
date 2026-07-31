@@ -83,6 +83,10 @@
 
     <!-- Sidebar: course outline -->
     <aside class="lesson-sidebar">
+      <a href="{% url 'forums:thread_list' course.slug %}" class="lesson-sidebar-forum-link">
+        💬 Course Discussions
+      </a>
+
       <h3 class="lesson-sidebar-title">Course Content</h3>
       {% for module in course.modules.all %}
         <div class="lesson-sidebar-module">
@@ -96,6 +100,11 @@
               </li>
             {% endfor %}
           </ul>
+          {% if module.quiz %}
+            <a href="{% url 'quizzes:quiz_detail' module.id %}" class="lesson-sidebar-quiz-link">
+              📝 Take Quiz: {{ module.quiz.title }}
+            </a>
+          {% endif %}
         </div>
       {% endfor %}
     </aside>
