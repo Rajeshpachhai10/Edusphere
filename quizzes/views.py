@@ -7,7 +7,7 @@ from django.db import transaction
 from courses.models import Module
 from enrollments.models import Enrollment
 from .models import Quiz, Question, QuizAttempt, StudentAnswer, Choice
-from .forms import QuizForm
+from .forms import QuizForm, QuestionForm, ChoiceFormSet
 
 
 def _get_quiz_or_404(module_id):
@@ -46,8 +46,6 @@ def quiz_detail_view(request, module_id):
 def submit_quiz_view(request, module_id):
     module, quiz = _get_quiz_or_404(module_id)
 
-    # Re-verify enrollment here too — never trust that the request
-    # only arrived via the quiz_detail page's own link.
     if not _student_is_enrolled(request.user, module):
         messages.error(request, "You must be enrolled in this course to submit this quiz.")
         return redirect('courses:course_detail', slug=module.course.slug)
@@ -85,7 +83,7 @@ def quiz_result_view(request, attempt_id):
     attempt = get_object_or_404(
         QuizAttempt,
         id=attempt_id,
-        student=request.user  # queryset-filtered: a student can only ever fetch their own attempt
+        student=request.user
     )
 
     context = {'attempt': attempt}
@@ -94,14 +92,8 @@ def quiz_result_view(request, attempt_id):
 
 @login_required
 def create_quiz_view(request, module_id):
-    # Same convention used everywhere else in this project: filter the
-    # queryset by ownership, so a wrong instructor gets a 404, not a 403.
     module = get_object_or_404(Module, id=module_id, course__instructor=request.user)
 
-    # A module can only have one quiz (Quiz.module is a OneToOneField).
-    # hasattr() safely checks "does module.quiz exist?" without crashing —
-    # in plain Python code (not templates), accessing a missing one-to-one
-    # relation normally raises an error; hasattr() catches that for us.
     if hasattr(module, 'quiz'):
         messages.info(request, "This module already has a quiz.")
         return redirect('courses:manage_course', slug=module.course.slug)
@@ -112,10 +104,49 @@ def create_quiz_view(request, module_id):
             quiz = form.save(commit=False)
             quiz.module = module
             quiz.save()
-            messages.success(request, f"Quiz '{quiz.title}' created. Add its questions from the admin panel.")
-            return redirect('courses:manage_course', slug=module.course.slug)
+            messages.success(request, f"Quiz '{quiz.title}' created. Now add its questions.")
+            return redirect('quizzes:manage_quiz', module_id=module.id)
     else:
         form = QuizForm()
 
     context = {'form': form, 'module': module}
     return render(request, 'quizzes/create_quiz.html', context)
+
+
+@login_required
+def manage_quiz_view(request, module_id):
+    module = get_object_or_404(Module, id=module_id, course__instructor=request.user)
+    quiz = get_object_or_404(Quiz, module=module)
+    questions = quiz.questions.prefetch_related('choices').all()
+
+    context = {'module': module, 'quiz': quiz, 'questions': questions}
+    return render(request, 'quizzes/manage_quiz.html', context)
+
+
+@login_required
+def add_question_view(request, module_id):
+    module = get_object_or_404(Module, id=module_id, course__instructor=request.user)
+    quiz = get_object_or_404(Quiz, module=module)
+
+    if request.method == 'POST':
+        form = QuestionForm(request.POST)
+        question = Question(quiz=quiz)
+
+        if form.is_valid():
+            question.text = form.cleaned_data['text']
+            question.order = form.cleaned_data['order']
+
+        formset = ChoiceFormSet(request.POST, instance=question)
+
+        if form.is_valid() and formset.is_valid():
+            with transaction.atomic():
+                question.save()
+                formset.save()
+            messages.success(request, "Question added.")
+            return redirect('quizzes:manage_quiz', module_id=module.id)
+    else:
+        form = QuestionForm()
+        formset = ChoiceFormSet(instance=Question(quiz=quiz))
+
+    context = {'form': form, 'formset': formset, 'quiz': quiz, 'module': module}
+    return render(request, 'quizzes/add_question.html', context)

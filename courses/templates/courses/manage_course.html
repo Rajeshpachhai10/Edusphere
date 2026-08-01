@@ -43,7 +43,7 @@
             <a href="{% url 'courses:edit_module' course.slug module.id %}" class="btn-sm-outline ms-auto">Edit</a>
             <a href="{% url 'courses:add_lesson' course.slug module.id %}" class="btn-sm-outline">+ Add Lesson</a>
             {% if module.quiz %}
-                <span class="btn-sm-outline" style="opacity: 0.6; cursor: default;">✓ Quiz Added</span>
+                <a href="{% url 'quizzes:manage_quiz' module.id %}" class="btn-sm-outline">✓ Manage Quiz</a>
             {% else %}
                 <a href="{% url 'quizzes:create_quiz' module.id %}" class="btn-sm-outline">+ Add Quiz</a>
             {% endif %}
