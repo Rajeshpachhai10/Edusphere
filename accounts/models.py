@@ -22,7 +22,7 @@ class CustomUser(AbstractUser):
     objects = CustomUserManager()
 
     def __str__(self):
-        return self.email
+        return self.first_name if self.first_name else self.email
 
 
 class InstructorProfile(models.Model):

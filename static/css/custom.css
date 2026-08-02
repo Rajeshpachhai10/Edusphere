@@ -474,21 +474,21 @@ label {
   align-items: center;
   margin-bottom: 24px;
   padding-bottom: 16px;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid var(--border);
 }
 
 .lesson-back-link {
-  color: #1E3A5F;
+  color: var(--ink);
   font-weight: 600;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
 }
 .lesson-back-link:hover {
-  color: #E8A33D;
+  color: var(--amber);
 }
 
 .lesson-progress-pill {
-  background-color: #1E3A5F;
+  background-color: var(--ink);
   color: #fff;
   padding: 6px 16px;
   border-radius: 999px;
@@ -509,7 +509,7 @@ label {
 }
 
 .lesson-content-panel {
-  background: #fff;
+  background: var(--surface);
   border-radius: 12px;
   padding: 32px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
@@ -518,7 +518,7 @@ label {
 .lesson-type-badge {
   display: inline-block;
   background-color: rgba(232, 163, 61, 0.15);
-  color: #E8A33D;
+  color: var(--amber);
   padding: 4px 12px;
   border-radius: 6px;
   font-size: 0.75rem;
@@ -532,7 +532,7 @@ label {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
-  color: #1E3A5F;
+  color: var(--ink);
   margin-bottom: 24px;
 }
 
@@ -560,7 +560,7 @@ label {
   align-items: center;
   gap: 20px;
   background: #FBFBFC;
-  border: 1.5px solid #E4E7EC;
+  border: 1.5px solid var(--border);
   border-radius: 12px;
   padding: 28px;
   margin-bottom: 24px;
@@ -570,7 +570,7 @@ label {
   height: 56px;
   border-radius: 12px;
   background: rgba(232, 163, 61, 0.15);
-  color: #CC8A28;
+  color: var(--amber-dark);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -583,7 +583,7 @@ label {
 }
 .lesson-pdf-filename {
   font-weight: 600;
-  color: #1A1D23;
+  color: var(--text);
   font-size: 0.95rem;
   margin: 0 0 2px;
   white-space: nowrap;
@@ -591,12 +591,12 @@ label {
   text-overflow: ellipsis;
 }
 .lesson-pdf-meta {
-  color: #6b7280;
+  color: var(--text-muted);
   font-size: 0.82rem;
   margin: 0;
 }
 .btn-view-pdf {
-  background-color: #1E3A5F;
+  background-color: var(--ink);
   color: #fff;
   padding: 10px 22px;
   border-radius: 8px;
@@ -607,24 +607,24 @@ label {
   transition: background-color 0.2s;
 }
 .btn-view-pdf:hover {
-  background-color: #16293F;
+  background-color: var(--ink-dark);
   color: #fff;
 }
 .lesson-pdf-wrapper embed {
   border-radius: 8px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--border);
 }
 
 .lesson-text-content {
   font-family: 'Inter', sans-serif;
   line-height: 1.7;
-  color: #333;
+  color: var(--text);
   margin-bottom: 24px;
 }
 
 .btn-complete {
-  background-color: #E8A33D;
-  color: #1E3A5F;
+  background-color: var(--amber);
+  color: var(--ink);
   border: none;
   padding: 12px 28px;
   border-radius: 8px;
@@ -633,9 +633,9 @@ label {
   cursor: pointer;
   transition: background-color 0.2s;
 }
-.btn-complete:hover { background-color: #d4922e; }
+.btn-complete:hover { background-color: var(--amber-dark); }
 .btn-complete-done {
-  background-color: #1E3A5F;
+  background-color: var(--ink);
   color: #fff;
   cursor: default;
 }
@@ -647,10 +647,10 @@ label {
   justify-content: space-between;
   margin-top: 32px;
   padding-top: 20px;
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid var(--border);
 }
 .lesson-nav-btn {
-  color: #1E3A5F;
+  color: var(--ink);
   font-weight: 600;
   text-decoration: none;
   padding: 8px 16px;
@@ -660,7 +660,7 @@ label {
 .lesson-nav-btn:hover { background-color: #f3f4f6; }
 
 .lesson-sidebar {
-  background: #fff;
+  background: var(--surface);
   border-radius: 12px;
   padding: 24px;
   height: fit-content;
@@ -668,7 +668,7 @@ label {
 }
 .lesson-sidebar-title {
   font-family: 'Space Grotesk', sans-serif;
-  color: #1E3A5F;
+  color: var(--ink);
   font-size: 1.1rem;
   margin-bottom: 16px;
 }
@@ -676,7 +676,7 @@ label {
 .lesson-sidebar-module-title {
   font-weight: 700;
   font-size: 0.85rem;
-  color: #6b7280;
+  color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-bottom: 8px;
@@ -687,14 +687,14 @@ label {
   display: block;
   padding: 8px 12px;
   border-radius: 6px;
-  color: #333;
+  color: var(--text);
   text-decoration: none;
   font-size: 0.9rem;
 }
 .lesson-sidebar-module {
   margin-bottom: 20px;
   padding-left: 12px;
-  border-left: 2px solid #E4E7EC;
+  border-left: 2px solid var(--border);
 }
 
 .lesson-sidebar-lesson-list li {
@@ -708,7 +708,7 @@ label {
   gap: 8px;
   padding: 8px 12px;
   border-radius: 6px;
-  color: #333;
+  color: var(--text);
   text-decoration: none;
   font-size: 0.9rem;
 }
@@ -724,25 +724,25 @@ label {
 
 .lesson-sidebar-active a {
   background-color: rgba(30, 58, 95, 0.08);
-  color: #1E3A5F;
+  color: var(--ink);
   font-weight: 600;
 }
 .lesson-sidebar-active a::before {
-  background-color: #1E3A5F;
+  background-color: var(--ink);
 }
 .lesson-sidebar-title {
-  color: #1E3A5F;
+  color: var(--ink);
   font-weight: 700;
   font-size: 1.15rem;
   padding-bottom: 8px;
-  border-bottom: 2px solid #E8A33D;
+  border-bottom: 2px solid var(--amber);
   display: inline-block;
 }
 
 .lesson-sidebar-module-title {
   font-weight: 700;
   font-size: 0.92rem;
-  color: #1E3A5F;
+  color: var(--ink);
   text-transform: uppercase;
   letter-spacing: 0.03em;
   margin-bottom: 8px;
@@ -754,7 +754,7 @@ label {
   padding: 8px 12px;
   border-radius: 6px;
   background-color: rgba(232, 163, 61, 0.1);
-  color: #CC8A28;
+  color: var(--amber-dark);
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 600;
@@ -770,7 +770,7 @@ label {
   margin-bottom: 24px;
   padding: 12px 14px;
   border-radius: 10px;
-  background: linear-gradient(135deg, #1E3A5F 0%, #16293F 100%);
+  background: linear-gradient(135deg, var(--ink) 0%, var(--ink-dark) 100%);
   color: #fff;
   text-decoration: none;
   font-weight: 600;
@@ -788,7 +788,7 @@ label {
 .my-courses-header { margin-bottom: 32px; }
 .my-courses-header h1 {
   font-family: 'Space Grotesk', sans-serif;
-  color: #1E3A5F;
+  color: var(--ink);
 }
 .my-courses-grid {
   display: grid;
@@ -796,15 +796,15 @@ label {
   gap: 24px;
 }
 .my-course-card {
-  background: #fff;
+  background: var(--surface);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 .my-course-thumb { width: 100%; height: 150px; object-fit: cover; }
-.my-course-thumb-placeholder { background: linear-gradient(135deg, #1E3A5F, #2d5580); }
+.my-course-thumb-placeholder { background: linear-gradient(135deg, var(--ink), #2d5580); }
 .my-course-body { padding: 20px; }
-.my-course-instructor { color: #6b7280; font-size: 0.85rem; margin-bottom: 12px; }
+.my-course-instructor { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 12px; }
 .my-course-progress-bar {
   background: #e5e7eb;
   border-radius: 999px;
@@ -813,31 +813,31 @@ label {
   margin-bottom: 6px;
 }
 .my-course-progress-fill {
-  background-color: #E8A33D;
+  background-color: var(--amber);
   height: 100%;
 }
 .my-course-progress-text {
   font-size: 0.8rem;
-  color: #6b7280;
+  color: var(--text-muted);
   margin-bottom: 16px;
 }
 .btn-continue {
   display: block;
   text-align: center;
-  background-color: #1E3A5F;
+  background-color: var(--ink);
   color: #fff;
   padding: 10px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
 }
-.btn-continue:hover { background-color: #16293f; color: #fff; }
-.my-courses-empty { text-align: center; padding: 60px 20px; color: #6b7280; }
+.btn-continue:hover { background-color: var(--ink-dark); color: #fff; }
+.my-courses-empty { text-align: center; padding: 60px 20px; color: var(--text-muted); }
 
 /* Lesson lock icon on course_detail accordion */
 .lesson-locked-icon { margin-left: 6px; opacity: 0.5; }
-.lesson-row-link { color: #1E3A5F; text-decoration: none; font-weight: 500; }
-.lesson-row-link:hover { color: #E8A33D; }
+.lesson-row-link { color: var(--ink); text-decoration: none; font-weight: 500; }
+.lesson-row-link:hover { color: var(--amber); }
 
 
 /* ===== Quiz Pages ===== */
@@ -855,19 +855,19 @@ label {
   display: block;
   font-size: 0.8rem;
   font-weight: 600;
-  color: #6b7280;
+  color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 10px;
 }
 .quiz-header h1 {
   font-family: 'Space Grotesk', sans-serif;
-  color: #1E3A5F;
+  color: var(--ink);
   font-size: 2rem;
   margin-bottom: 12px;
 }
 .quiz-instructions {
-  color: #5B6470;
+  color: var(--text-muted);
   max-width: 520px;
   margin: 0 auto 16px;
   line-height: 1.6;
@@ -877,22 +877,22 @@ label {
   justify-content: center;
   gap: 10px;
   font-size: 0.9rem;
-  color: #6b7280;
+  color: var(--text-muted);
   font-weight: 500;
 }
 
 .quiz-question-card {
-  background: #fff;
+  background: var(--surface);
   border-radius: 12px;
   padding: 28px;
   margin-bottom: 20px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-  border: 1px solid #E4E7EC;
+  border: 1px solid var(--border);
 }
 .quiz-question-number {
   display: inline-block;
   background-color: rgba(232, 163, 61, 0.15);
-  color: #E8A33D;
+  color: var(--amber);
   padding: 4px 12px;
   border-radius: 6px;
   font-size: 0.75rem;
@@ -905,7 +905,7 @@ label {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.15rem;
   font-weight: 600;
-  color: #1A1D23;
+  color: var(--text);
   margin-bottom: 20px;
 }
 
@@ -919,35 +919,35 @@ label {
   align-items: center;
   gap: 12px;
   padding: 14px 16px;
-  border: 1.5px solid #E4E7EC;
+  border: 1.5px solid var(--border);
   border-radius: 10px;
   cursor: pointer;
   transition: border-color 0.15s ease, background-color 0.15s ease;
 }
 .quiz-choice-option:hover {
-  border-color: #1E3A5F;
+  border-color: var(--ink);
   background-color: rgba(30,58,95,0.03);
 }
 .quiz-choice-option input[type="radio"] {
-  accent-color: #1E3A5F;
+  accent-color: var(--ink);
   width: 18px;
   height: 18px;
   flex-shrink: 0;
 }
 .quiz-choice-option:has(input:checked) {
-  border-color: #E8A33D;
+  border-color: var(--amber);
   background-color: rgba(232,163,61,0.08);
 }
 .quiz-choice-text {
   font-size: 0.95rem;
-  color: #1A1D23;
+  color: var(--text);
 }
 
 .quiz-submit-bar {
   text-align: center;
   margin-top: 32px;
   padding-top: 24px;
-  border-top: 1px solid #E4E7EC;
+  border-top: 1px solid var(--border);
 }
 .quiz-submit-bar .btn {
   padding: 12px 40px;
@@ -960,12 +960,12 @@ label {
   padding: 60px 24px;
 }
 .quiz-result-card {
-  background: #fff;
+  background: var(--surface);
   border-radius: 16px;
   padding: 48px 32px;
   text-align: center;
   box-shadow: 0 4px 24px rgba(30,58,95,0.08);
-  border: 1px solid #E4E7EC;
+  border: 1px solid var(--border);
 }
 .quiz-result-icon {
   width: 72px;
@@ -988,12 +988,12 @@ label {
 }
 .quiz-result-card h1 {
   font-family: 'Space Grotesk', sans-serif;
-  color: #1E3A5F;
+  color: var(--ink);
   font-size: 1.6rem;
   margin-bottom: 6px;
 }
 .quiz-result-quiz-title {
-  color: #6b7280;
+  color: var(--text-muted);
   font-size: 0.95rem;
   margin-bottom: 28px;
 }
@@ -1008,19 +1008,19 @@ label {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 3rem;
   font-weight: 700;
-  color: #1E3A5F;
+  color: var(--ink);
 }
 .quiz-result-score-divider {
   font-size: 1.5rem;
-  color: #6b7280;
+  color: var(--text-muted);
 }
 .quiz-result-score-total {
   font-size: 1.5rem;
-  color: #6b7280;
+  color: var(--text-muted);
   font-weight: 600;
 }
 .quiz-result-percentage {
-  color: #6b7280;
+  color: var(--text-muted);
   font-size: 0.9rem;
   margin-bottom: 32px;
 }
@@ -1042,7 +1042,7 @@ label {
   display: block;
   font-size: 0.8rem;
   font-weight: 600;
-  color: #6b7280;
+  color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 6px;
@@ -1056,7 +1056,7 @@ label {
 }
 .forum-header h1 {
   font-family: 'Space Grotesk', sans-serif;
-  color: #1E3A5F;
+  color: var(--ink);
   font-size: 1.9rem;
   margin: 0;
 }
@@ -1071,8 +1071,8 @@ label {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  background: #fff;
-  border: 1px solid #E4E7EC;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 20px 24px;
   text-decoration: none;
@@ -1080,7 +1080,7 @@ label {
   transition: border-color 0.15s ease, transform 0.15s ease;
 }
 .forum-thread-row:hover {
-  border-color: #1E3A5F;
+  border-color: var(--ink);
   transform: translateY(-2px);
 }
 .forum-thread-row.pinned {
@@ -1090,11 +1090,11 @@ label {
 .forum-thread-main h3 {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.05rem;
-  color: #1A1D23;
+  color: var(--text);
   margin: 4px 0 6px;
 }
 .forum-thread-preview {
-  color: #5B6470;
+  color: var(--text-muted);
   font-size: 0.9rem;
   margin-bottom: 8px;
 }
@@ -1103,7 +1103,7 @@ label {
   gap: 8px;
   align-items: center;
   font-size: 0.82rem;
-  color: #6b7280;
+  color: var(--text-muted);
 }
 .forum-thread-replies {
   text-align: center;
@@ -1115,11 +1115,11 @@ label {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
-  color: #1E3A5F;
+  color: var(--ink);
 }
 .forum-reply-label {
   font-size: 0.75rem;
-  color: #6b7280;
+  color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
@@ -1127,7 +1127,7 @@ label {
 .forum-pin-badge {
   display: inline-block;
   background-color: rgba(232, 163, 61, 0.15);
-  color: #CC8A28;
+  color: var(--amber-dark);
   padding: 3px 10px;
   border-radius: 6px;
   font-size: 0.72rem;
@@ -1137,15 +1137,15 @@ label {
 
 /* Create thread form */
 .forum-form-card {
-  background: #fff;
+  background: var(--surface);
   border-radius: 12px;
   padding: 32px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-  border: 1px solid #E4E7EC;
+  border: 1px solid var(--border);
 }
 .forum-form-card h1 {
   font-family: 'Space Grotesk', sans-serif;
-  color: #1E3A5F;
+  color: var(--ink);
   font-size: 1.6rem;
   margin-bottom: 24px;
 }
@@ -1159,36 +1159,36 @@ label {
 /* Thread detail */
 .forum-back-link {
   display: inline-block;
-  color: #1E3A5F;
+  color: var(--ink);
   font-weight: 600;
   text-decoration: none;
   margin-bottom: 20px;
 }
-.forum-back-link:hover { color: #E8A33D; }
+.forum-back-link:hover { color: var(--amber); }
 
 .forum-op-card {
-  background: #fff;
+  background: var(--surface);
   border-radius: 12px;
   padding: 28px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-  border: 1px solid #E4E7EC;
+  border: 1px solid var(--border);
   margin-bottom: 24px;
 }
 .forum-op-card h1 {
   font-family: 'Space Grotesk', sans-serif;
-  color: #1E3A5F;
+  color: var(--ink);
   font-size: 1.5rem;
   margin: 4px 0 12px;
 }
 .forum-op-body {
   margin-top: 16px;
   line-height: 1.7;
-  color: #1A1D23;
+  color: var(--text);
 }
 
 .forum-replies-heading {
   font-family: 'Space Grotesk', sans-serif;
-  color: #1E3A5F;
+  color: var(--ink);
   font-size: 1.05rem;
   margin-bottom: 14px;
 }
@@ -1200,21 +1200,21 @@ label {
   margin-bottom: 28px;
 }
 .forum-post-card {
-  background: #fff;
+  background: var(--surface);
   border-radius: 10px;
   padding: 18px 22px;
-  border: 1px solid #E4E7EC;
+  border: 1px solid var(--border);
 }
 .forum-post-body {
   margin-top: 10px;
   line-height: 1.6;
-  color: #1A1D23;
+  color: var(--text);
   font-size: 0.94rem;
 }
 
 .forum-reply-form {
   background: #FBFBFC;
-  border: 1px solid #E4E7EC;
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 20px 24px;
 }
@@ -1778,4 +1778,3 @@ label {
 .btn-danger-outline:hover {
   background: rgba(220,53,69,0.08);
 }
-
