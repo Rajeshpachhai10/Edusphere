@@ -123,11 +123,12 @@ WSGI_APPLICATION = "edusphere.wsgi.application"
 
 DATABASES = {
     "default": dj_database_url.config(
-        default=f"postgresql://postgres:{config('PASSWORD')}@localhost:5432/{config('NAME')}",
+        default=f"postgresql://postgres:{config('PASSWORD', default='postgres')}@localhost:5432/{config('NAME', default='edusphere_db')}",
         conn_max_age=600,
         ssl_require=False,
     )
 }
+
 
 
 # Password validation
