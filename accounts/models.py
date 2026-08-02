@@ -25,10 +25,16 @@ class CustomUser(AbstractUser):
         return self.first_name if self.first_name else self.email
 
 
+# class InstructorProfile(models.Model):
+#     user = models.OneToOneField(CustomUser, on_delete=models.CASCADE, related_name="instructor_profile")
+#     expertise = models.CharField(max_length=255, blank=True)
+#     qualification = models.CharField(max_length=255, blank=True)
+#     years_of_experience = models.PositiveIntegerField(default=0)
+
 class InstructorProfile(models.Model):
     user = models.OneToOneField(CustomUser, on_delete=models.CASCADE, related_name="instructor_profile")
-    expertise = models.CharField(max_length=255, blank=True)
-    qualification = models.CharField(max_length=255, blank=True)
+    expertise = models.TextField(blank=True)
+    qualification = models.TextField(blank=True)
     years_of_experience = models.PositiveIntegerField(default=0)
 
     def __str__(self):
