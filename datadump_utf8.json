@@ -1,0 +1,3720 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "3g7p276robhuutxvlsuu0ll2cmrrvjt5",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAyhBnq0r1nIAMMUjU0Ke3KeHdt0oVu_3vvv1Tgba1h67KEKauzMladfsfI6SFtJ_nO7TbrNLd1maLeFX3Qrq9zluflcP8OKvf6rRkFORoYnCloPYEXHEgICjsi9IVwNG40kBKRtYWjICSwiMX56LJ6fwDqADde:1whNJl:Zzg5FGhRQTiDnfJJZeHKc5LFxSiiz0cBMwGk5wQzerM",
+        "expire_date": "2026-07-22T08:07:41.963Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "h3b8hg6z450kovbz8szl2keap17lwfcz",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEwPOvSvd9ABgakaiAp7cr479qkC93ec859sYDbWsM28hJmYmcG7PS7RUyP3HZAd2y3zlNv6zJHviv8oINfO-Xn5XD_DiqO-q2VN8J4ZyG5iAjC65IdkMhgJ41AKAvkYlBJN0WjNcioyKIvlDySFOz9Ac3tN8M:1wqTHd:AO1rWJW9KWcBL7gzjik6LQKa2s0WMZyjHyhco-WUb4E",
+        "expire_date": "2026-08-16T10:19:05.377Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lvr2bn9gxa9ez771thqgakzagn8y522i",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEwPOvSvd9ABgakaiAp7cr479qkC93ec859sYDbWsM28hJmYmcG7PS7RUyP3HZAd2y3zlNv6zJHviv8oINfO-Xn5XD_DiqO-q2VN8J4ZyG5iAjC65IdkMhgJ41AKAvkYlBJN0WjNcioyKIvlDySFOz9Ac3tN8M:1wqaDw:cdb4asOz4IEzyKqKNco9nrXCyhsOu3ZImrAeJMTipz8",
+        "expire_date": "2026-08-16T17:43:44.011Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "z30jv8n6zqvd3knlyk8o6x1rf2f0pjxy",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEwPOvSvd9ABgakaiAp7cr479qkC93ec859sYDbWsM28hJmYmcG7PS7RUyP3HZAd2y3zlNv6zJHviv8oINfO-Xn5XD_DiqO-q2VN8J4ZyG5iAjC65IdkMhgJ41AKAvkYlBJN0WjNcioyKIvlDySFOz9Ac3tN8M:1wqTTC:2E3Iel6enlurgjTS4WoZ-ad3_A0kA9tVAEhCQeZhURI",
+        "expire_date": "2026-08-16T10:31:02.535Z"
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$5tKpthNwEJD3QXObrQQdLd$DWyPKASdivHyftbEGh/uxTnMDDFuRvqKxcwTaGKu5zA=",
+        "last_login": "2026-08-02T16:23:18.774Z",
+        "is_superuser": true,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-07-03T09:05:23.564Z",
+        "email": "rajesh@gmail.com",
+        "role": "admin",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-03T09:05:24.010Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$2Zk81zPTidLVkWTBBzvOGN$jSgUG3Aioq6xNls8Qldt7Js1ZyURwqwA1pu8JSjioPY=",
+        "last_login": "2026-08-02T17:43:44.008Z",
+        "is_superuser": false,
+        "first_name": "Rajesh",
+        "last_name": "Pachhai",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-03T11:37:21.330Z",
+        "email": "pachhairajesh30@gmail.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-03T11:37:21.854Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$vqkXZjc64jVXwVEb578oSW$3EaNURcutldiENc+Ogmg7gABX9WVrq89r11v/KQPY2Y=",
+        "last_login": "2026-07-03T11:53:09.918Z",
+        "is_superuser": false,
+        "first_name": "Kitra",
+        "last_name": "Sharpe",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-03T11:53:09.362Z",
+        "email": "qimukiryxi@mailinator.com",
+        "role": "instructor",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-03T11:53:09.894Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$Fhhiud3iFKdzB7gbbFmxaB$LRpWm/tFzT4hLJJ3BNqPr5pa1Qi8SmXl4fzivhxS8/s=",
+        "last_login": "2026-07-04T10:30:52.664Z",
+        "is_superuser": false,
+        "first_name": "Brent",
+        "last_name": "Kelley",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-04T10:30:52.089Z",
+        "email": "roji@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-04T10:30:52.646Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$v6cltnG3s1LKZ38To31Haw$2KL8Tz83/CmvRkW9h2biGBKn+AYkez5IIV6nkIBLz34=",
+        "last_login": "2026-07-04T11:26:50.662Z",
+        "is_superuser": false,
+        "first_name": "Keiko",
+        "last_name": "Dominguez",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-04T11:26:49.941Z",
+        "email": "suqoz@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-04T11:26:50.644Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$jP220nPrVvALQ0UyMyTjez$KXKsaed1LAv8uJtOrrwRTofuEHk3j9/w4iRZFVctXhY=",
+        "last_login": "2026-07-04T11:27:07.510Z",
+        "is_superuser": false,
+        "first_name": "Brandon",
+        "last_name": "Nolan",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-04T11:27:06.828Z",
+        "email": "tacygoty@mailinator.com",
+        "role": "instructor",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-04T11:27:07.487Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$4bazAB7HC953mFbJHTriwk$vEfX+ng+atLjn+PCtM8Y4RUP4CFIzriM6+3jYv9NMe4=",
+        "last_login": "2026-07-07T09:50:42.622Z",
+        "is_superuser": false,
+        "first_name": "Virginia",
+        "last_name": "Estrada",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-07T09:50:42.094Z",
+        "email": "citegera@mailinator.com",
+        "role": "instructor",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-07T09:50:42.601Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$t9fXTT9jB0XtFVEev1iCHV$nwZIaz4OXIltyq3GDef2OCMT8/279KwQVSNL6i5QFdU=",
+        "last_login": "2026-07-07T09:59:07.140Z",
+        "is_superuser": false,
+        "first_name": "David",
+        "last_name": "Schroeder",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-07T09:59:06.622Z",
+        "email": "boty@mailinator.com",
+        "role": "instructor",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-07T09:59:07.121Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$hktbs95MzdHn3vK767PPSD$UDpsRMmNsTwX/zJQVRJqNiVfBbXNASHaFtOpztROLeo=",
+        "last_login": "2026-07-08T06:51:47.245Z",
+        "is_superuser": false,
+        "first_name": "Emma",
+        "last_name": "Zimmerman",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-08T06:51:46.688Z",
+        "email": "vumeha@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-08T06:51:47.232Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$KbNDDp5xwH8H5f8yyuz9AW$Zk/1YBgm57NzNcRpaAOhbekEp3UBi0qF3i67RWY3vhU=",
+        "last_login": "2026-07-08T06:53:11.711Z",
+        "is_superuser": false,
+        "first_name": "Danielle",
+        "last_name": "Santana",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-08T06:53:11.205Z",
+        "email": "gejyq@mailinator.com",
+        "role": "instructor",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-08T06:53:11.691Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$HJAgr8pIHb3ug9f6wdy6AG$EMpKyo9W+zavhI+OoEDmV8og7e4lsrNIEMq+n1viDs8=",
+        "last_login": "2026-08-02T16:22:07.729Z",
+        "is_superuser": false,
+        "first_name": "Rajesh",
+        "last_name": "Pachhai",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-08T07:44:29.235Z",
+        "email": "pachhairajesh40@gmail.com",
+        "role": "instructor",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-08T07:44:29.910Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$5cfoGh5pkeHtpe28OsVqpv$NM/Kf7FLO6N1SmrPrHIbb0tqgwKrl23MjsThbxtMmTc=",
+        "last_login": "2026-07-08T07:59:43.420Z",
+        "is_superuser": false,
+        "first_name": "Shellie",
+        "last_name": "Bender",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2026-07-08T07:59:42.724Z",
+        "email": "josimequru@mailinator.com",
+        "role": "instructor",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-08T07:59:43.398Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$rqziTjBkjk6y1EPQu34cyy$oRI6RgxnjXXfsyvYiTdJB+r+GRti7bDjOeaPas9VU3E=",
+        "last_login": "2026-07-08T08:07:41.956Z",
+        "is_superuser": false,
+        "first_name": "Zelda",
+        "last_name": "Pacheco",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-08T08:07:41.223Z",
+        "email": "vyjoqupi@mailinator.com",
+        "role": "instructor",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-08T08:07:41.934Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$ysbgbECyKMHMDjGM0wHUOs$PMs8xOSG6MBIThcNxSKp6Typpq1pEpq6kFzQ8V4fpRA=",
+        "last_login": "2026-07-18T15:31:04.569Z",
+        "is_superuser": false,
+        "first_name": "Tanisha",
+        "last_name": "Bradshaw",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-18T15:31:03.562Z",
+        "email": "visuwe@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-18T15:31:04.546Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$rucE705VrHLdnSc9Ho0CT6$1Ae9fzIeeOH0pV3xAQrIGZBSlbl/IDrbRsgCP7QUKiI=",
+        "last_login": "2026-07-18T15:32:32.496Z",
+        "is_superuser": false,
+        "first_name": "Xantha",
+        "last_name": "Jordan",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-18T15:32:31.598Z",
+        "email": "qytybara@mailinator.com",
+        "role": "instructor",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-18T15:32:32.470Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$BjSZKVvEV5QXzJY0FXEnwo$AqO6RMxVg8aaaIJWxtxgvIKvgTiXfSmxW7KM5x3G8tQ=",
+        "last_login": "2026-07-18T15:45:28.216Z",
+        "is_superuser": false,
+        "first_name": "Claudia",
+        "last_name": "Horton",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-18T15:45:27.163Z",
+        "email": "quvoduwymi@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-18T15:45:28.193Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$fg2q7b5CPRf3NSxHaK5SJA$WiXBHWca1MZgk9NwKHCt3sOj2lUocL+ff1nMKscZH6Y=",
+        "last_login": "2026-07-18T15:49:15.270Z",
+        "is_superuser": false,
+        "first_name": "Maia",
+        "last_name": "Burgess",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-18T15:49:14.218Z",
+        "email": "hycejyty@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-18T15:49:15.250Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$3QuujJG7nlgfzi3yyjMRSc$iq+QPPrSwgDtcs4qJvNlJxvA5p0yKwYLcJoY2+yXwV0=",
+        "last_login": "2026-07-18T16:24:35.559Z",
+        "is_superuser": false,
+        "first_name": "Halla",
+        "last_name": "Kidd",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-18T16:24:34.412Z",
+        "email": "saqe@mailinator.com",
+        "role": "instructor",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-18T16:24:35.529Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$37qaHH0DGgEn83e0DjkwfS$i619kVaEyjLdVY0pbpZ5ckzlk7krHHrNUScJY800dV4=",
+        "last_login": "2026-07-22T11:03:29.537Z",
+        "is_superuser": false,
+        "first_name": "Fatima",
+        "last_name": "Quinn",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-22T11:03:28.478Z",
+        "email": "cuzy@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-22T11:03:29.518Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$p76KKKClV1mjUp5uZvNB4T$7XPgVEcF330eGmPiDBMucR1spu/B7arlamOSeyRjrX0=",
+        "last_login": "2026-07-24T10:36:24.892Z",
+        "is_superuser": false,
+        "first_name": "Latifah",
+        "last_name": "Hensley",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-24T10:36:23.720Z",
+        "email": "gapemuw@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-24T10:36:24.871Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$coe1BKZchTTyfMWxYZyLPl$YnYthS6v4G8/h/JJi1eHuBY7n2rMZW/qMXyFn6Hmrkg=",
+        "last_login": "2026-07-27T18:26:55.232Z",
+        "is_superuser": false,
+        "first_name": "Vincent",
+        "last_name": "Torres",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-27T18:26:54.235Z",
+        "email": "typimygyfo@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-27T18:26:55.215Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$AEeC7tU0ZuZ3OlUa0YNxR0$LvHeWyFjHswtl/GHe/O3ftyynSEJHGs+C3vqwmdHBaI=",
+        "last_login": "2026-07-27T18:36:27.169Z",
+        "is_superuser": false,
+        "first_name": "Quincy",
+        "last_name": "Rodriguez",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-27T18:36:26.012Z",
+        "email": "pygubiki@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-27T18:36:27.148Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$JDqeC5pWhmkMdGGvttdjPZ$zSUyJrbHW+yX1La6HRVPaI8F1vJK4rY58sG+rKALOAo=",
+        "last_login": "2026-07-27T18:49:06.161Z",
+        "is_superuser": false,
+        "first_name": "Raya",
+        "last_name": "Hobbs",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-27T18:49:05.203Z",
+        "email": "nugedysora@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-27T18:49:06.138Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$oTH1RKrZeonJ8Fgl8f0Oth$Pr59bTkTswp/zBgTekffjuVLoXagu8f/IgJMVsPEGfk=",
+        "last_login": "2026-07-27T19:10:31.430Z",
+        "is_superuser": false,
+        "first_name": "Stewart",
+        "last_name": "Montoya",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2026-07-27T19:10:30.282Z",
+        "email": "tupuxyqih@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-27T19:10:31.410Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$FVOlT9sER1iZ6KXEOS02qy$YCExWvy8KSROzEm3sBb+W3JUZ8FoguUZ0TbGih/mTD0=",
+        "last_login": "2026-07-30T09:29:19.714Z",
+        "is_superuser": false,
+        "first_name": "Octavia",
+        "last_name": "Michael",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-30T09:29:18.622Z",
+        "email": "rogyq@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-30T09:29:19.694Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$4M2su3B5Ok1hhEs5rPqurX$H4X3LWiqbe3fTPL1pwMQUJfZG0ec3oP2S01oe8TNog0=",
+        "last_login": "2026-07-30T17:23:39.697Z",
+        "is_superuser": false,
+        "first_name": "Keaton",
+        "last_name": "Rodgers",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-30T17:23:38.714Z",
+        "email": "wahuvilo@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-30T17:23:39.677Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$vy5bByY7eiEbDdDdnvIkyI$Q7jnCV1QnLUfHO5TyINhJY1/iYCUuX3rFg8jnB7p/zU=",
+        "last_login": "2026-07-31T06:45:08.045Z",
+        "is_superuser": false,
+        "first_name": "Daniel",
+        "last_name": "Weeks",
+        "is_staff": false,
+        "is_active": false,
+        "date_joined": "2026-07-31T06:45:07.007Z",
+        "email": "pequra@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-31T06:45:08.026Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$ksvkiRJnpKpES7uv1AOcDR$ZvDQDP6IzspvGfJuIxRh2ssCWhPXGD4fHV60OnfCO6s=",
+        "last_login": "2026-07-31T06:48:50.271Z",
+        "is_superuser": false,
+        "first_name": "Sydney",
+        "last_name": "Atkins",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-31T06:48:49.379Z",
+        "email": "zuqorydac@mailinator.com",
+        "role": "instructor",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-31T06:48:50.228Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$0F1H2PzyHBiwBIoXVqDyjR$Pzjqj9qJ10rVMeJHitJHfqhP17PTBTS2366CXn9tGh0=",
+        "last_login": "2026-07-31T06:53:08.149Z",
+        "is_superuser": false,
+        "first_name": "Florence",
+        "last_name": "Jimenez",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-31T06:53:07.235Z",
+        "email": "nesacivem@mailinator.com",
+        "role": "instructor",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-31T06:53:08.078Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$DK7ahNc5MSGBvxrWr4o090$OvJoUy17Eb/RBkHK9TsAmyVz8iVwF4meD5xc1hqyNQ0=",
+        "last_login": "2026-07-31T07:02:35.683Z",
+        "is_superuser": false,
+        "first_name": "Andrew",
+        "last_name": "Mcintyre",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-31T07:02:34.645Z",
+        "email": "rycojomiv@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-31T07:02:35.653Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$hvcYexTjHrHSeS0BITAUko$T8k0pqpe9fW8QjtxmcgliPNBX6qra477X+ZLfk02fjo=",
+        "last_login": "2026-08-01T18:01:57.755Z",
+        "is_superuser": false,
+        "first_name": "Rajani",
+        "last_name": "Pachhai",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-31T07:50:34.314Z",
+        "email": "rajani@gmail.com",
+        "role": "instructor",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-07-31T07:50:35.461Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$DOqOHDMdcxFGaX3GWuDKQT$chTAj0V/wCW98Ij8UcolQ9ak3yenIBSN5m6Gx5NAm0Q=",
+        "last_login": "2026-08-02T09:14:52.352Z",
+        "is_superuser": false,
+        "first_name": "Craig",
+        "last_name": "Watts",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-08-02T09:14:51.395Z",
+        "email": "hero@mailinator.com",
+        "role": "instructor",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-08-02T09:14:52.324Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$RvRxx8z8NEYBqaJa5KCnyv$lcFRLQ7fNhLjLmPqqATKhVnND2TQNAbiSyXi9iMl8yM=",
+        "last_login": "2026-08-02T17:31:52.743Z",
+        "is_superuser": false,
+        "first_name": "Latifah",
+        "last_name": "Gregory",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-08-02T17:31:51.703Z",
+        "email": "dahipovy@mailinator.com",
+        "role": "student",
+        "profile_picture": "",
+        "bio": "",
+        "created_at": "2026-08-02T17:31:52.732Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.instructorprofile",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "qimukiryxi@mailinator.com"
+        ],
+        "expertise": "Minima aut ipsum inventore quis autem eos ullamco rerum enim dicta sequi qui vitae officiis",
+        "qualification": "Mollit est omnis placeat minim temporibus occaecat ex eveniet consequatur facere ea ea nostrud consequatur dicta",
+        "years_of_experience": 0
+    }
+},
+{
+    "model": "accounts.instructorprofile",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "tacygoty@mailinator.com"
+        ],
+        "expertise": "Autem aut veniam facere necessitatibus sit aut qui",
+        "qualification": "Aliquip harum et deserunt hic anim et",
+        "years_of_experience": 0
+    }
+},
+{
+    "model": "accounts.instructorprofile",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "citegera@mailinator.com"
+        ],
+        "expertise": "Excepteur esse fugit eos rem tempor iste",
+        "qualification": "Inventore optio esse velit laboris debitis incididunt dignissimos aut dolorem atque et eos fugiat sunt",
+        "years_of_experience": 0
+    }
+},
+{
+    "model": "accounts.instructorprofile",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "boty@mailinator.com"
+        ],
+        "expertise": "Velit praesentium explicabo Atque sed architecto aut",
+        "qualification": "Iste ex voluptatibus dolorum nobis pariatur Repellendus Optio nisi veniam nostrum et eos ea eum minus magnam rerum",
+        "years_of_experience": 0
+    }
+},
+{
+    "model": "accounts.instructorprofile",
+    "pk": 5,
+    "fields": {
+        "user": [
+            "gejyq@mailinator.com"
+        ],
+        "expertise": "Magnam atque non qui aut similique aut voluptas ut",
+        "qualification": "Exercitationem qui do optio quod et",
+        "years_of_experience": 0
+    }
+},
+{
+    "model": "accounts.instructorprofile",
+    "pk": 6,
+    "fields": {
+        "user": [
+            "pachhairajesh40@gmail.com"
+        ],
+        "expertise": "Full stack tech knowledge",
+        "qualification": "Msc in Software Engineering",
+        "years_of_experience": 0
+    }
+},
+{
+    "model": "accounts.instructorprofile",
+    "pk": 7,
+    "fields": {
+        "user": [
+            "josimequru@mailinator.com"
+        ],
+        "expertise": "Consequatur iusto harum nostrud autem mollitia deserunt explicabo Molestiae autem amet obcaecati quis mollit reprehenderit dolor",
+        "qualification": "Sequi amet veniam totam commodi non neque nisi cillum sit aut velit nisi iusto nemo ipsa voluptatum possimus",
+        "years_of_experience": 0
+    }
+},
+{
+    "model": "accounts.instructorprofile",
+    "pk": 8,
+    "fields": {
+        "user": [
+            "vyjoqupi@mailinator.com"
+        ],
+        "expertise": "Sapiente error eum velit velit dolore illum tempor ut accusantium cillum sed minima",
+        "qualification": "In modi consequatur est aut sint ratione labore eius voluptates suscipit",
+        "years_of_experience": 0
+    }
+},
+{
+    "model": "accounts.instructorprofile",
+    "pk": 9,
+    "fields": {
+        "user": [
+            "qytybara@mailinator.com"
+        ],
+        "expertise": "Sed veniam amet beatae ut inventore beatae similique sit non optio consequatur Elit esse minima deserunt laboris officia eu",
+        "qualification": "Velit reprehenderit veniam esse qui",
+        "years_of_experience": 0
+    }
+},
+{
+    "model": "accounts.instructorprofile",
+    "pk": 10,
+    "fields": {
+        "user": [
+            "saqe@mailinator.com"
+        ],
+        "expertise": "Quisquam nulla dolore excepturi nostrud exercitationem in cupidatat id occaecat harum aspernatur aut exercitationem adipisicing corrupti corporis",
+        "qualification": "Cupidatat eu voluptatem reprehenderit ipsum non quas aliquip sit id dolor rerum similique adipisci laboriosam incidunt ipsam",
+        "years_of_experience": 0
+    }
+},
+{
+    "model": "accounts.instructorprofile",
+    "pk": 11,
+    "fields": {
+        "user": [
+            "zuqorydac@mailinator.com"
+        ],
+        "expertise": "Exercitation optio fugiat sed delectus autem",
+        "qualification": "Voluptates qui voluptatem Do fugiat eligendi corrupti et saepe enim consectetur",
+        "years_of_experience": 0
+    }
+},
+{
+    "model": "accounts.instructorprofile",
+    "pk": 12,
+    "fields": {
+        "user": [
+            "nesacivem@mailinator.com"
+        ],
+        "expertise": "Sed Nam anim sint aliquid id eveniet sed saepe non eum nisi vel",
+        "qualification": "Repellendus Nostrum quisquam iusto autem",
+        "years_of_experience": 0
+    }
+},
+{
+    "model": "accounts.instructorprofile",
+    "pk": 13,
+    "fields": {
+        "user": [
+            "rajani@gmail.com"
+        ],
+        "expertise": "Data Science • Python • Machine Learning • Deep Learning • Statistics • SQL • Data Visualization • Data Wrangling • Feature Engineering • Predictive Modeling • Pandas • NumPy • Matplotlib • Scikit-learn • Jupyter Notebook • Git",
+        "qualification": "Senior Data Science Instructor with 5+ years of experience in teaching Data Science, Machine Learning, and Python programming. Proficient in designing industry-focused curricula, delivering hands-on training, mentoring students through real-world projects",
+        "years_of_experience": 0
+    }
+},
+{
+    "model": "accounts.instructorprofile",
+    "pk": 14,
+    "fields": {
+        "user": [
+            "hero@mailinator.com"
+        ],
+        "expertise": "Ab sit praesentium aut tempore nisi voluptatibus amet et dolore at magna",
+        "qualification": "Unde id magnam omnis nihil est sint",
+        "years_of_experience": 0
+    }
+},
+{
+    "model": "courses.category",
+    "pk": 1,
+    "fields": {
+        "name": "Data Science",
+        "slug": "data-science"
+    }
+},
+{
+    "model": "courses.category",
+    "pk": 2,
+    "fields": {
+        "name": "Python Django",
+        "slug": "python-django"
+    }
+},
+{
+    "model": "courses.category",
+    "pk": 3,
+    "fields": {
+        "name": "MERN stack",
+        "slug": "mern-stack"
+    }
+},
+{
+    "model": "courses.category",
+    "pk": 4,
+    "fields": {
+        "name": "AI/ML",
+        "slug": "aiml"
+    }
+},
+{
+    "model": "courses.category",
+    "pk": 5,
+    "fields": {
+        "name": "Dev ops",
+        "slug": "dev-ops"
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 1,
+    "fields": {
+        "instructor": [
+            "boty@mailinator.com"
+        ],
+        "category": 1,
+        "title": "Job ready data science course",
+        "slug": "job-ready-data-science-course",
+        "description": "This is a full guided job ready data science course with real world projects.",
+        "thumbnail": "course_thumbnails/auth.jpeg",
+        "level": "intermediate",
+        "price": "1999.00",
+        "is_published": false,
+        "created_at": "2026-07-07T10:01:11.248Z",
+        "updated_at": "2026-07-07T10:01:11.248Z"
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 2,
+    "fields": {
+        "instructor": [
+            "gejyq@mailinator.com"
+        ],
+        "category": 2,
+        "title": "This is a full stack python course",
+        "slug": "this-is-a-full-stack-python-course",
+        "description": "Learn full stack job ready python django course.",
+        "thumbnail": "course_thumbnails/istockphoto-2148361509-612x612.jpg",
+        "level": "intermediate",
+        "price": "2500.00",
+        "is_published": false,
+        "created_at": "2026-07-08T06:55:29.916Z",
+        "updated_at": "2026-07-08T06:55:29.916Z"
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 3,
+    "fields": {
+        "instructor": [
+            "pachhairajesh40@gmail.com"
+        ],
+        "category": 2,
+        "title": "Full stack Python Django",
+        "slug": "full-stack-python-django",
+        "description": "This is a full stack python django course with real world learnings.",
+        "thumbnail": "course_thumbnails/istockphoto-2148361509-612x612_vxYtL1m.jpg",
+        "level": "intermediate",
+        "price": "101.00",
+        "is_published": true,
+        "created_at": "2026-07-08T07:46:15.475Z",
+        "updated_at": "2026-07-27T18:26:35.942Z"
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 7,
+    "fields": {
+        "instructor": [
+            "rajani@gmail.com"
+        ],
+        "category": 1,
+        "title": "Master Data Science with Python",
+        "slug": "master-data-science-with-python-3",
+        "description": "**Master Data Science from the ground up with a practical, hands-on approach.** This course covers Python, Statistics, SQL, Data Analysis, Data Visualization, Machine Learning, and AI fundamentals through real-world projects and industry-focused exercises. By the end of the course, you'll have the skills to analyze data, build predictive models, and create a professional portfolio that prepares you for internships and entry-level Data Science roles.",
+        "thumbnail": "course_thumbnails/data_science_lWNt8gm.jpg",
+        "level": "advanced",
+        "price": "205.00",
+        "is_published": true,
+        "created_at": "2026-07-31T08:04:50.066Z",
+        "updated_at": "2026-07-31T08:32:07.902Z"
+    }
+},
+{
+    "model": "courses.module",
+    "pk": 1,
+    "fields": {
+        "course": 1,
+        "title": "Introduction to data science",
+        "order": 5
+    }
+},
+{
+    "model": "courses.module",
+    "pk": 2,
+    "fields": {
+        "course": 2,
+        "title": "Introduction",
+        "order": 2
+    }
+},
+{
+    "model": "courses.module",
+    "pk": 3,
+    "fields": {
+        "course": 2,
+        "title": "Start Basics",
+        "order": 1
+    }
+},
+{
+    "model": "courses.module",
+    "pk": 4,
+    "fields": {
+        "course": 3,
+        "title": "Introduction to python",
+        "order": 1
+    }
+},
+{
+    "model": "courses.module",
+    "pk": 5,
+    "fields": {
+        "course": 7,
+        "title": "Python for Data Science",
+        "order": 1
+    }
+},
+{
+    "model": "courses.module",
+    "pk": 6,
+    "fields": {
+        "course": 7,
+        "title": "Data Analysis & Visualization",
+        "order": 2
+    }
+},
+{
+    "model": "courses.module",
+    "pk": 7,
+    "fields": {
+        "course": 7,
+        "title": "Machine Learning Fundamentals",
+        "order": 3
+    }
+},
+{
+    "model": "courses.module",
+    "pk": 8,
+    "fields": {
+        "course": 3,
+        "title": "Frontend Development",
+        "order": 2
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 1,
+    "fields": {
+        "module": 1,
+        "title": "What is data science?",
+        "content_type": "video",
+        "video_url": "https://youtu.be/KxryzSO1Fjs?si=bgRCMgHj_c_tVyR8",
+        "pdf_file": "lesson_pdfs/Seaborn-Plots__JN.ipynb",
+        "text_content": "This is a basic introduction about the data science for begginers.",
+        "order": 2,
+        "duration_minutes": 45
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 2,
+    "fields": {
+        "module": 2,
+        "title": "What is python?",
+        "content_type": "video",
+        "video_url": "https://youtu.be/KxryzSO1Fjs?si=bgRCMgHj_c_tVyR8",
+        "pdf_file": "lesson_pdfs/BCA_Web-tech-important.docx",
+        "text_content": "Python is a flexible language for begginers.",
+        "order": 1,
+        "duration_minutes": 12
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 3,
+    "fields": {
+        "module": 3,
+        "title": "What is coding?",
+        "content_type": "video",
+        "video_url": "https://youtu.be/KxryzSO1Fjs?si=bgRCMgHj_c_tVyR8",
+        "pdf_file": "lesson_pdfs/Math_OLD_questions.pdf",
+        "text_content": "This is a clarification class.",
+        "order": 2,
+        "duration_minutes": 30
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 4,
+    "fields": {
+        "module": 3,
+        "title": "First thing to know",
+        "content_type": "video",
+        "video_url": "https://youtu.be/uV13Myyoee0?si=Zfhx6w73Z-IW1awF",
+        "pdf_file": "lesson_pdfs/SQL_Assignment1_Solutions_1.pdf",
+        "text_content": "This is the things to learn first.",
+        "order": 1,
+        "duration_minutes": 20
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 5,
+    "fields": {
+        "module": 4,
+        "title": "What is python?",
+        "content_type": "video",
+        "video_url": "https://www.youtube.com/embed/LNteQNuGF-E",
+        "pdf_file": "lesson_pdfs/DSA-Notes_Solutions.docx",
+        "text_content": "This is the brief about python and its usecase.",
+        "order": 2,
+        "duration_minutes": 35
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 6,
+    "fields": {
+        "module": 4,
+        "title": "Python Fundamentals",
+        "content_type": "video",
+        "video_url": "https://www.youtube.com/embed/fr1f84rg4Nw",
+        "pdf_file": "lesson_pdfs/Math_OLD_questions_uehMlo7.pdf",
+        "text_content": "Introduction to the python fundamentals.",
+        "order": 1,
+        "duration_minutes": 0
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 7,
+    "fields": {
+        "module": 4,
+        "title": "What is print?",
+        "content_type": "video",
+        "video_url": "https://www.youtube.com/embed/fr1f84rg4Nw",
+        "pdf_file": "lesson_pdfs/Math_OLD_questions_WVAe7Fi.pdf",
+        "text_content": "This is the brief about print in python.",
+        "order": 3,
+        "duration_minutes": 0
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 8,
+    "fields": {
+        "module": 5,
+        "title": "Python Fundamentals",
+        "content_type": "video",
+        "video_url": "https://www.youtube.com/embed/6rYVt_2q_BM",
+        "pdf_file": "lesson_pdfs/Math_OLD_Solutions.pdf",
+        "text_content": "Learn the fundamentals of Python programming, including variables, data types, operators, and user input/output. This lesson builds the programming foundation required for Data Science.",
+        "order": 1,
+        "duration_minutes": 30
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 9,
+    "fields": {
+        "module": 5,
+        "title": "Control Flow & Functions",
+        "content_type": "video",
+        "video_url": "https://www.youtube.com/embed/1qz7qUM6yUI",
+        "pdf_file": "lesson_pdfs/Math_OLD_Solutions_9QbhHwm.pdf",
+        "text_content": "Understand how to control program execution using conditional statements and loops. Learn to write reusable functions and organize code with Python modules.",
+        "order": 2,
+        "duration_minutes": 20
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 10,
+    "fields": {
+        "module": 5,
+        "title": "Data Structures",
+        "content_type": "video",
+        "video_url": "https://www.youtube.com/embed/2I8TJBfGml0",
+        "pdf_file": "lesson_pdfs/SQL_Assignment1_Solutions_1_AxSceQN.pdf",
+        "text_content": "Explore Python's core data structures and learn how to efficiently store, manipulate, and access data for real-world applications.",
+        "order": 3,
+        "duration_minutes": 70
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 11,
+    "fields": {
+        "module": 6,
+        "title": "NumPy & Pandas",
+        "content_type": "video",
+        "video_url": "https://www.youtube.com/embed/1qz7qUM6yUI",
+        "pdf_file": "lesson_pdfs/TU_BCA_OOP_Java_PastQuestions.pdf",
+        "text_content": "Learn to work with NumPy arrays and Pandas DataFrames to import, clean, organize, and prepare datasets for analysis.",
+        "order": 1,
+        "duration_minutes": 30
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 12,
+    "fields": {
+        "module": 6,
+        "title": "Exploratory Data Analysis (EDA)",
+        "content_type": "video",
+        "video_url": "https://youtu.be/KxryzSO1Fjs?si=bgRCMgHj_c_tVyR8",
+        "pdf_file": "lesson_pdfs/Math_OLD_questions_6pojh9z.pdf",
+        "text_content": "Discover techniques for exploring datasets, handling missing values, generating descriptive statistics, and identifying patterns in data.",
+        "order": 2,
+        "duration_minutes": 40
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 13,
+    "fields": {
+        "module": 7,
+        "title": "Introduction to Machine Learning",
+        "content_type": "video",
+        "video_url": "https://www.youtube.com/embed/i_LwzRVP7bg",
+        "pdf_file": "lesson_pdfs/Math_OLD_Solutions_joGTyMp.pdf",
+        "text_content": "Understand the fundamentals of Machine Learning, including supervised and unsupervised learning, common algorithms, and the complete ML workflow.",
+        "order": 1,
+        "duration_minutes": 80
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 14,
+    "fields": {
+        "module": 7,
+        "title": "Building Your First Model",
+        "content_type": "video",
+        "video_url": "https://youtu.be/KxryzSO1Fjs?si=bgRCMgHj_c_tVyR8",
+        "pdf_file": "lesson_pdfs/Math_OLD_Solutions_pmJTELn.pdf",
+        "text_content": "Build your first Machine Learning model by preparing data, training algorithms, making predictions, and using Scikit-learn to solve practical problems.",
+        "order": 2,
+        "duration_minutes": 50
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 15,
+    "fields": {
+        "module": 8,
+        "title": "HTML & CSS",
+        "content_type": "pdf",
+        "video_url": "",
+        "pdf_file": "lesson_pdfs/Numpy_Handbook.pdf",
+        "text_content": "Learn the fundamentals of front-end web development by building structured and visually appealing web pages. This lesson covers HTML for creating webpage structure and CSS for styling layouts, colors, typography, spacing, and responsive designs. By the end of the lesson, you'll be able to create modern, user-friendly web interfaces and understand the foundation of every website.",
+        "order": 1,
+        "duration_minutes": 30
+    }
+},
+{
+    "model": "courses.lesson",
+    "pk": 16,
+    "fields": {
+        "module": 8,
+        "title": "Django Web Development",
+        "content_type": "pdf",
+        "video_url": "",
+        "pdf_file": "lesson_pdfs/Matplotlib_Seaborn_Handbook.pdf",
+        "text_content": "Learn how to build powerful, secure, and scalable web applications using the Django framework. This lesson covers project setup, URL routing, views, templates, models, authentication, CRUD operations, and database integration. By the end of the lesson, you'll be able to develop dynamic, database-driven web applications following Django's best practices.",
+        "order": 2,
+        "duration_minutes": 40
+    }
+},
+{
+    "model": "enrollments.enrollment",
+    "pk": 1,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "course": 3,
+        "enrolled_at": "2026-07-13T12:29:04.553Z"
+    }
+},
+{
+    "model": "enrollments.enrollment",
+    "pk": 2,
+    "fields": {
+        "student": [
+            "quvoduwymi@mailinator.com"
+        ],
+        "course": 3,
+        "enrolled_at": "2026-07-18T15:45:40.265Z"
+    }
+},
+{
+    "model": "enrollments.enrollment",
+    "pk": 3,
+    "fields": {
+        "student": [
+            "cuzy@mailinator.com"
+        ],
+        "course": 3,
+        "enrolled_at": "2026-07-22T11:04:05.711Z"
+    }
+},
+{
+    "model": "enrollments.enrollment",
+    "pk": 4,
+    "fields": {
+        "student": [
+            "gapemuw@mailinator.com"
+        ],
+        "course": 3,
+        "enrolled_at": "2026-07-24T10:36:48.365Z"
+    }
+},
+{
+    "model": "enrollments.enrollment",
+    "pk": 5,
+    "fields": {
+        "student": [
+            "nugedysora@mailinator.com"
+        ],
+        "course": 3,
+        "enrolled_at": "2026-07-27T18:50:59.764Z"
+    }
+},
+{
+    "model": "enrollments.enrollment",
+    "pk": 6,
+    "fields": {
+        "student": [
+            "wahuvilo@mailinator.com"
+        ],
+        "course": 3,
+        "enrolled_at": "2026-07-30T17:24:57.850Z"
+    }
+},
+{
+    "model": "enrollments.enrollment",
+    "pk": 7,
+    "fields": {
+        "student": [
+            "pequra@mailinator.com"
+        ],
+        "course": 3,
+        "enrolled_at": "2026-07-31T06:46:23.660Z"
+    }
+},
+{
+    "model": "enrollments.enrollment",
+    "pk": 8,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "course": 7,
+        "enrolled_at": "2026-08-01T17:50:56.565Z"
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 1,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "lesson": 5,
+        "completed": true,
+        "completed_at": "2026-07-13T12:30:13.049Z"
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 2,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "lesson": 6,
+        "completed": true,
+        "completed_at": "2026-07-17T10:31:15.896Z"
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 3,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "lesson": 7,
+        "completed": false,
+        "completed_at": null
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 4,
+    "fields": {
+        "student": [
+            "quvoduwymi@mailinator.com"
+        ],
+        "lesson": 6,
+        "completed": true,
+        "completed_at": "2026-07-18T15:46:30.815Z"
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 5,
+    "fields": {
+        "student": [
+            "quvoduwymi@mailinator.com"
+        ],
+        "lesson": 5,
+        "completed": false,
+        "completed_at": null
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 6,
+    "fields": {
+        "student": [
+            "quvoduwymi@mailinator.com"
+        ],
+        "lesson": 7,
+        "completed": false,
+        "completed_at": null
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 7,
+    "fields": {
+        "student": [
+            "cuzy@mailinator.com"
+        ],
+        "lesson": 6,
+        "completed": true,
+        "completed_at": "2026-07-22T11:12:21.950Z"
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 8,
+    "fields": {
+        "student": [
+            "cuzy@mailinator.com"
+        ],
+        "lesson": 5,
+        "completed": false,
+        "completed_at": null
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 9,
+    "fields": {
+        "student": [
+            "cuzy@mailinator.com"
+        ],
+        "lesson": 7,
+        "completed": false,
+        "completed_at": null
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 10,
+    "fields": {
+        "student": [
+            "nugedysora@mailinator.com"
+        ],
+        "lesson": 6,
+        "completed": false,
+        "completed_at": null
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 11,
+    "fields": {
+        "student": [
+            "wahuvilo@mailinator.com"
+        ],
+        "lesson": 7,
+        "completed": true,
+        "completed_at": "2026-07-30T17:29:00.593Z"
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 12,
+    "fields": {
+        "student": [
+            "wahuvilo@mailinator.com"
+        ],
+        "lesson": 6,
+        "completed": true,
+        "completed_at": "2026-07-30T17:29:07.420Z"
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 13,
+    "fields": {
+        "student": [
+            "wahuvilo@mailinator.com"
+        ],
+        "lesson": 5,
+        "completed": false,
+        "completed_at": null
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 14,
+    "fields": {
+        "student": [
+            "pequra@mailinator.com"
+        ],
+        "lesson": 6,
+        "completed": true,
+        "completed_at": "2026-07-31T06:48:20.637Z"
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 15,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "lesson": 8,
+        "completed": false,
+        "completed_at": null
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 16,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "lesson": 9,
+        "completed": true,
+        "completed_at": "2026-08-01T17:55:00.604Z"
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 17,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "lesson": 10,
+        "completed": false,
+        "completed_at": null
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 18,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "lesson": 11,
+        "completed": true,
+        "completed_at": "2026-08-02T09:18:14.460Z"
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 19,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "lesson": 12,
+        "completed": false,
+        "completed_at": null
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 20,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "lesson": 13,
+        "completed": false,
+        "completed_at": null
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 21,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "lesson": 14,
+        "completed": false,
+        "completed_at": null
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 22,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "lesson": 15,
+        "completed": false,
+        "completed_at": null
+    }
+},
+{
+    "model": "enrollments.lessonprogress",
+    "pk": 23,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "lesson": 16,
+        "completed": false,
+        "completed_at": null
+    }
+},
+{
+    "model": "quizzes.quiz",
+    "pk": 1,
+    "fields": {
+        "module": 4,
+        "title": "Module 1 Knowledge Check",
+        "instructions": "Answer all questions to test your understanding",
+        "passing_score": 70,
+        "created_at": "2026-07-21T09:52:47.160Z"
+    }
+},
+{
+    "model": "quizzes.quiz",
+    "pk": 2,
+    "fields": {
+        "module": 5,
+        "title": "Module 1 practice quiz.",
+        "instructions": "The purpose of this quiz is to help you check your own understanding and reinforce what you’ve learned.",
+        "passing_score": 70,
+        "created_at": "2026-07-31T15:44:19.942Z"
+    }
+},
+{
+    "model": "quizzes.quiz",
+    "pk": 3,
+    "fields": {
+        "module": 6,
+        "title": "Quick Module-2 Quiz",
+        "instructions": "Attempt all the questions.",
+        "passing_score": 70,
+        "created_at": "2026-08-01T17:19:50.174Z"
+    }
+},
+{
+    "model": "quizzes.quiz",
+    "pk": 4,
+    "fields": {
+        "module": 7,
+        "title": "Module 3 quiz",
+        "instructions": "Attempt all the questions",
+        "passing_score": 70,
+        "created_at": "2026-08-01T17:24:50.993Z"
+    }
+},
+{
+    "model": "quizzes.quiz",
+    "pk": 5,
+    "fields": {
+        "module": 8,
+        "title": "Module-2 Quick quiz",
+        "instructions": "Attempt all the questions  and check your knowledge.",
+        "passing_score": 70,
+        "created_at": "2026-08-02T09:57:49.011Z"
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 1,
+    "fields": {
+        "quiz": 1,
+        "text": "What is the output of type([]) in Python?",
+        "order": 1
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 2,
+    "fields": {
+        "quiz": 1,
+        "text": "Which of the following data types in Python is immutable?",
+        "order": 2
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 3,
+    "fields": {
+        "quiz": 1,
+        "text": "What will be the output of the slice expression [1, 2, 3, 4, 5][1:4]?",
+        "order": 3
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 4,
+    "fields": {
+        "quiz": 1,
+        "text": "Which keyword is used to define a function in Python?",
+        "order": 4
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 5,
+    "fields": {
+        "quiz": 1,
+        "text": "What is the result of 10 // 3 in Python 3?",
+        "order": 5
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 6,
+    "fields": {
+        "quiz": 2,
+        "text": "What is a variable in Python?",
+        "order": 1
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 7,
+    "fields": {
+        "quiz": 2,
+        "text": "Which data type is used to store decimal numbers?",
+        "order": 2
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 8,
+    "fields": {
+        "quiz": 2,
+        "text": "What does the input() function do?",
+        "order": 3
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 9,
+    "fields": {
+        "quiz": 3,
+        "text": "What is the primary purpose of NumPy?",
+        "order": 1
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 10,
+    "fields": {
+        "quiz": 3,
+        "text": "Which Pandas data structure is used to store tabular data?",
+        "order": 2
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 11,
+    "fields": {
+        "quiz": 3,
+        "text": "Which Pandas function is used to read a CSV file?",
+        "order": 3
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 12,
+    "fields": {
+        "quiz": 4,
+        "text": "Which of the following is a real-world application of Machine Learning?",
+        "order": 1
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 13,
+    "fields": {
+        "quiz": 4,
+        "text": "What is the first step in a typical Machine Learning workflow?",
+        "order": 0
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 14,
+    "fields": {
+        "quiz": 5,
+        "text": "Which file is primarily used to define URL routes in a Django application?",
+        "order": 1
+    }
+},
+{
+    "model": "quizzes.question",
+    "pk": 15,
+    "fields": {
+        "quiz": 5,
+        "text": "Which command is used to apply database migrations in Django?",
+        "order": 2
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 1,
+    "fields": {
+        "question": 1,
+        "text": "<class 'array'>",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 2,
+    "fields": {
+        "question": 1,
+        "text": "<class 'list'>",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 3,
+    "fields": {
+        "question": 1,
+        "text": "<class 'tuple'>",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 4,
+    "fields": {
+        "question": 1,
+        "text": "<class 'dict'>",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 5,
+    "fields": {
+        "question": 2,
+        "text": "array",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 6,
+    "fields": {
+        "question": 2,
+        "text": "list",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 7,
+    "fields": {
+        "question": 2,
+        "text": "tuple",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 8,
+    "fields": {
+        "question": 2,
+        "text": "dict",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 9,
+    "fields": {
+        "question": 3,
+        "text": "[1, 2, 3]",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 10,
+    "fields": {
+        "question": 3,
+        "text": "[2, 3, 4]",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 11,
+    "fields": {
+        "question": 3,
+        "text": "C) [2, 3, 4, 5]",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 12,
+    "fields": {
+        "question": 3,
+        "text": "[1, 2, 3, 4]",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 13,
+    "fields": {
+        "question": 4,
+        "text": "function",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 14,
+    "fields": {
+        "question": 4,
+        "text": "func",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 15,
+    "fields": {
+        "question": 4,
+        "text": "define",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 16,
+    "fields": {
+        "question": 4,
+        "text": "def",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 17,
+    "fields": {
+        "question": 5,
+        "text": "3.33333333333333",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 18,
+    "fields": {
+        "question": 5,
+        "text": "3.0",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 19,
+    "fields": {
+        "question": 5,
+        "text": "3",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 20,
+    "fields": {
+        "question": 5,
+        "text": "1",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 21,
+    "fields": {
+        "question": 6,
+        "text": "A loop statement",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 22,
+    "fields": {
+        "question": 6,
+        "text": "A container used to store data",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 23,
+    "fields": {
+        "question": 6,
+        "text": "A mathematical operator",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 24,
+    "fields": {
+        "question": 6,
+        "text": "A Python keyword",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 25,
+    "fields": {
+        "question": 7,
+        "text": "int",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 26,
+    "fields": {
+        "question": 7,
+        "text": "float",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 27,
+    "fields": {
+        "question": 7,
+        "text": "str",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 28,
+    "fields": {
+        "question": 7,
+        "text": "bool",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 29,
+    "fields": {
+        "question": 8,
+        "text": "Prints text to the screen",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 30,
+    "fields": {
+        "question": 8,
+        "text": "Reads input from the use",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 31,
+    "fields": {
+        "question": 8,
+        "text": "Deletes a variable",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 32,
+    "fields": {
+        "question": 8,
+        "text": "Creates a loop",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 33,
+    "fields": {
+        "question": 9,
+        "text": "Web development",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 34,
+    "fields": {
+        "question": 9,
+        "text": "Numerical computing and array operations",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 35,
+    "fields": {
+        "question": 9,
+        "text": "Game development",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 36,
+    "fields": {
+        "question": 9,
+        "text": "Mobile app development",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 37,
+    "fields": {
+        "question": 10,
+        "text": "List",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 38,
+    "fields": {
+        "question": 10,
+        "text": "Dictionary",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 39,
+    "fields": {
+        "question": 10,
+        "text": "C. DataFrame",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 40,
+    "fields": {
+        "question": 10,
+        "text": "Tuple",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 41,
+    "fields": {
+        "question": 11,
+        "text": "read_excel()",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 42,
+    "fields": {
+        "question": 11,
+        "text": ". read_json()",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 43,
+    "fields": {
+        "question": 11,
+        "text": "open_csv()",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 44,
+    "fields": {
+        "question": 11,
+        "text": "read_csv()",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 45,
+    "fields": {
+        "question": 12,
+        "text": "Email spam detection",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 46,
+    "fields": {
+        "question": 12,
+        "text": "Text editing",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 47,
+    "fields": {
+        "question": 12,
+        "text": "File compression",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 48,
+    "fields": {
+        "question": 12,
+        "text": "Creating folders",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 49,
+    "fields": {
+        "question": 13,
+        "text": "Deploy the model",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 50,
+    "fields": {
+        "question": 13,
+        "text": "Evaluate the model",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 51,
+    "fields": {
+        "question": 13,
+        "text": "Collect and prepare data",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 52,
+    "fields": {
+        "question": 13,
+        "text": "Make predictions",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 53,
+    "fields": {
+        "question": 14,
+        "text": "models.py",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 54,
+    "fields": {
+        "question": 14,
+        "text": "settings.py",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 55,
+    "fields": {
+        "question": 14,
+        "text": "urls.py",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 56,
+    "fields": {
+        "question": 14,
+        "text": "views.py",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 57,
+    "fields": {
+        "question": 15,
+        "text": "python manage.py runserver",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 58,
+    "fields": {
+        "question": 15,
+        "text": "python manage.py migrate",
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 59,
+    "fields": {
+        "question": 15,
+        "text": "python manage.py createsuperuser",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.choice",
+    "pk": 60,
+    "fields": {
+        "question": 15,
+        "text": "python manage.py startapp",
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.quizattempt",
+    "pk": 1,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "quiz": 1,
+        "score": 4,
+        "total_questions": 5,
+        "passed": true,
+        "attempted_at": "2026-07-22T10:06:14.883Z"
+    }
+},
+{
+    "model": "quizzes.quizattempt",
+    "pk": 2,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "quiz": 1,
+        "score": 2,
+        "total_questions": 5,
+        "passed": false,
+        "attempted_at": "2026-07-22T10:07:48.197Z"
+    }
+},
+{
+    "model": "quizzes.quizattempt",
+    "pk": 3,
+    "fields": {
+        "student": [
+            "wahuvilo@mailinator.com"
+        ],
+        "quiz": 1,
+        "score": 1,
+        "total_questions": 5,
+        "passed": false,
+        "attempted_at": "2026-07-30T17:26:17.515Z"
+    }
+},
+{
+    "model": "quizzes.quizattempt",
+    "pk": 4,
+    "fields": {
+        "student": [
+            "wahuvilo@mailinator.com"
+        ],
+        "quiz": 1,
+        "score": 3,
+        "total_questions": 5,
+        "passed": false,
+        "attempted_at": "2026-07-30T17:26:46.795Z"
+    }
+},
+{
+    "model": "quizzes.quizattempt",
+    "pk": 5,
+    "fields": {
+        "student": [
+            "wahuvilo@mailinator.com"
+        ],
+        "quiz": 1,
+        "score": 4,
+        "total_questions": 5,
+        "passed": true,
+        "attempted_at": "2026-07-30T17:27:08.520Z"
+    }
+},
+{
+    "model": "quizzes.quizattempt",
+    "pk": 6,
+    "fields": {
+        "student": [
+            "pequra@mailinator.com"
+        ],
+        "quiz": 1,
+        "score": 1,
+        "total_questions": 5,
+        "passed": false,
+        "attempted_at": "2026-07-31T06:47:14.571Z"
+    }
+},
+{
+    "model": "quizzes.quizattempt",
+    "pk": 7,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "quiz": 2,
+        "score": 3,
+        "total_questions": 3,
+        "passed": true,
+        "attempted_at": "2026-08-01T17:55:15.823Z"
+    }
+},
+{
+    "model": "quizzes.quizattempt",
+    "pk": 8,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "quiz": 3,
+        "score": 2,
+        "total_questions": 3,
+        "passed": false,
+        "attempted_at": "2026-08-01T17:55:57.413Z"
+    }
+},
+{
+    "model": "quizzes.quizattempt",
+    "pk": 9,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "quiz": 3,
+        "score": 1,
+        "total_questions": 3,
+        "passed": false,
+        "attempted_at": "2026-08-01T17:56:45.586Z"
+    }
+},
+{
+    "model": "quizzes.quizattempt",
+    "pk": 10,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "quiz": 4,
+        "score": 0,
+        "total_questions": 2,
+        "passed": false,
+        "attempted_at": "2026-08-02T17:44:05.352Z"
+    }
+},
+{
+    "model": "quizzes.quizattempt",
+    "pk": 11,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "quiz": 4,
+        "score": 0,
+        "total_questions": 2,
+        "passed": false,
+        "attempted_at": "2026-08-02T17:44:11.830Z"
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 1,
+    "fields": {
+        "attempt": 1,
+        "question": 1,
+        "selected_choice": 2,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 2,
+    "fields": {
+        "attempt": 1,
+        "question": 2,
+        "selected_choice": 7,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 3,
+    "fields": {
+        "attempt": 1,
+        "question": 3,
+        "selected_choice": 9,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 4,
+    "fields": {
+        "attempt": 1,
+        "question": 4,
+        "selected_choice": 16,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 5,
+    "fields": {
+        "attempt": 1,
+        "question": 5,
+        "selected_choice": 19,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 6,
+    "fields": {
+        "attempt": 2,
+        "question": 1,
+        "selected_choice": 2,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 7,
+    "fields": {
+        "attempt": 2,
+        "question": 2,
+        "selected_choice": 8,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 8,
+    "fields": {
+        "attempt": 2,
+        "question": 3,
+        "selected_choice": 12,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 9,
+    "fields": {
+        "attempt": 2,
+        "question": 4,
+        "selected_choice": 15,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 10,
+    "fields": {
+        "attempt": 2,
+        "question": 5,
+        "selected_choice": 19,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 11,
+    "fields": {
+        "attempt": 3,
+        "question": 1,
+        "selected_choice": 1,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 12,
+    "fields": {
+        "attempt": 3,
+        "question": 2,
+        "selected_choice": 6,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 13,
+    "fields": {
+        "attempt": 3,
+        "question": 3,
+        "selected_choice": 11,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 14,
+    "fields": {
+        "attempt": 3,
+        "question": 4,
+        "selected_choice": 13,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 15,
+    "fields": {
+        "attempt": 3,
+        "question": 5,
+        "selected_choice": 19,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 16,
+    "fields": {
+        "attempt": 4,
+        "question": 1,
+        "selected_choice": 2,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 17,
+    "fields": {
+        "attempt": 4,
+        "question": 2,
+        "selected_choice": 6,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 18,
+    "fields": {
+        "attempt": 4,
+        "question": 3,
+        "selected_choice": 10,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 19,
+    "fields": {
+        "attempt": 4,
+        "question": 4,
+        "selected_choice": 16,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 20,
+    "fields": {
+        "attempt": 4,
+        "question": 5,
+        "selected_choice": 18,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 21,
+    "fields": {
+        "attempt": 5,
+        "question": 1,
+        "selected_choice": 2,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 22,
+    "fields": {
+        "attempt": 5,
+        "question": 2,
+        "selected_choice": 7,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 23,
+    "fields": {
+        "attempt": 5,
+        "question": 3,
+        "selected_choice": 10,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 24,
+    "fields": {
+        "attempt": 5,
+        "question": 4,
+        "selected_choice": 16,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 25,
+    "fields": {
+        "attempt": 5,
+        "question": 5,
+        "selected_choice": 18,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 26,
+    "fields": {
+        "attempt": 6,
+        "question": 1,
+        "selected_choice": 1,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 27,
+    "fields": {
+        "attempt": 6,
+        "question": 2,
+        "selected_choice": 7,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 28,
+    "fields": {
+        "attempt": 6,
+        "question": 3,
+        "selected_choice": 12,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 29,
+    "fields": {
+        "attempt": 6,
+        "question": 4,
+        "selected_choice": 14,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 30,
+    "fields": {
+        "attempt": 6,
+        "question": 5,
+        "selected_choice": 17,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 31,
+    "fields": {
+        "attempt": 7,
+        "question": 6,
+        "selected_choice": 22,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 32,
+    "fields": {
+        "attempt": 7,
+        "question": 7,
+        "selected_choice": 26,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 33,
+    "fields": {
+        "attempt": 7,
+        "question": 8,
+        "selected_choice": 30,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 34,
+    "fields": {
+        "attempt": 8,
+        "question": 9,
+        "selected_choice": 34,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 35,
+    "fields": {
+        "attempt": 8,
+        "question": 10,
+        "selected_choice": 39,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 36,
+    "fields": {
+        "attempt": 8,
+        "question": 11,
+        "selected_choice": 43,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 37,
+    "fields": {
+        "attempt": 9,
+        "question": 9,
+        "selected_choice": 33,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 38,
+    "fields": {
+        "attempt": 9,
+        "question": 10,
+        "selected_choice": 39,
+        "is_correct": true
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 39,
+    "fields": {
+        "attempt": 9,
+        "question": 11,
+        "selected_choice": 41,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 40,
+    "fields": {
+        "attempt": 10,
+        "question": 13,
+        "selected_choice": 50,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 41,
+    "fields": {
+        "attempt": 10,
+        "question": 12,
+        "selected_choice": 46,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 42,
+    "fields": {
+        "attempt": 11,
+        "question": 13,
+        "selected_choice": 50,
+        "is_correct": false
+    }
+},
+{
+    "model": "quizzes.studentanswer",
+    "pk": 43,
+    "fields": {
+        "attempt": 11,
+        "question": 12,
+        "selected_choice": 48,
+        "is_correct": false
+    }
+},
+{
+    "model": "forums.thread",
+    "pk": 1,
+    "fields": {
+        "course": 3,
+        "author": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "title": "Python oops concept",
+        "body": "I am stuck at the class object basics as I find them very complex at the beginning.",
+        "is_pinned": false,
+        "created_at": "2026-07-24T10:35:13.077Z"
+    }
+},
+{
+    "model": "forums.thread",
+    "pk": 2,
+    "fields": {
+        "course": 7,
+        "author": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "title": "Python basics",
+        "body": "Which Python library is primarily used for data manipulation and analysis?",
+        "is_pinned": false,
+        "created_at": "2026-08-01T17:52:38.105Z"
+    }
+},
+{
+    "model": "forums.thread",
+    "pk": 3,
+    "fields": {
+        "course": 7,
+        "author": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "title": "Python basics",
+        "body": "Which Python library is primarily used for data manipulation and analysis?",
+        "is_pinned": false,
+        "created_at": "2026-08-01T17:52:55.870Z"
+    }
+},
+{
+    "model": "forums.post",
+    "pk": 1,
+    "fields": {
+        "thread": 1,
+        "author": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "body": "waiting for the instructor reply",
+        "created_at": "2026-07-24T10:35:52.506Z"
+    }
+},
+{
+    "model": "forums.post",
+    "pk": 2,
+    "fields": {
+        "thread": 1,
+        "author": [
+            "gapemuw@mailinator.com"
+        ],
+        "body": "Same here!!",
+        "created_at": "2026-07-24T10:37:24.657Z"
+    }
+},
+{
+    "model": "forums.post",
+    "pk": 3,
+    "fields": {
+        "thread": 1,
+        "author": [
+            "pachhairajesh40@gmail.com"
+        ],
+        "body": "Don't try to memorize classes and objects. Think of a class as a blueprint and an object as the real thing created from that blueprint. Practice with simple examples like Student, Car, or Dog first. After writing 10–15 small programs, the concept will become much clearer.",
+        "created_at": "2026-07-24T10:39:58.964Z"
+    }
+},
+{
+    "model": "forums.post",
+    "pk": 4,
+    "fields": {
+        "thread": 1,
+        "author": [
+            "wahuvilo@mailinator.com"
+        ],
+        "body": "Thank you sir !",
+        "created_at": "2026-07-30T17:28:11.845Z"
+    }
+},
+{
+    "model": "forums.post",
+    "pk": 5,
+    "fields": {
+        "thread": 3,
+        "author": [
+            "rajani@gmail.com"
+        ],
+        "body": "Pandas is the primary Python library for data manipulation and analysis because it provides powerful data structures like DataFrame and Series, making it easy to clean, organize, filter, merge, and analyze structured data efficiently. It is widely used in data science, machine learning, and analytics.",
+        "created_at": "2026-08-01T18:05:42.118Z"
+    }
+},
+{
+    "model": "payments.order",
+    "pk": 1,
+    "fields": {
+        "student": [
+            "typimygyfo@mailinator.com"
+        ],
+        "course": 3,
+        "transaction_uuid": "a018dbf8-97b2-4323-b506-ca4bbed2fcf3",
+        "amount": "101.00",
+        "tax_amount": "0.00",
+        "total_amount": "101.00",
+        "status": "failed",
+        "esewa_transaction_code": null,
+        "created_at": "2026-07-27T18:27:28.950Z",
+        "updated_at": "2026-08-02T09:14:24.364Z"
+    }
+},
+{
+    "model": "payments.order",
+    "pk": 2,
+    "fields": {
+        "student": [
+            "typimygyfo@mailinator.com"
+        ],
+        "course": 3,
+        "transaction_uuid": "1d37b031-0cd5-4be4-acc1-b81cb61f7126",
+        "amount": "101.00",
+        "tax_amount": "0.00",
+        "total_amount": "101.00",
+        "status": "failed",
+        "esewa_transaction_code": null,
+        "created_at": "2026-07-27T18:30:24.880Z",
+        "updated_at": "2026-07-27T18:33:04.556Z"
+    }
+},
+{
+    "model": "payments.order",
+    "pk": 3,
+    "fields": {
+        "student": [
+            "typimygyfo@mailinator.com"
+        ],
+        "course": 3,
+        "transaction_uuid": "8096f207-d324-4142-ada4-2879417dc521",
+        "amount": "101.00",
+        "tax_amount": "0.00",
+        "total_amount": "101.00",
+        "status": "failed",
+        "esewa_transaction_code": null,
+        "created_at": "2026-07-27T18:36:12.593Z",
+        "updated_at": "2026-08-02T09:13:49.479Z"
+    }
+},
+{
+    "model": "payments.order",
+    "pk": 4,
+    "fields": {
+        "student": [
+            "pygubiki@mailinator.com"
+        ],
+        "course": 3,
+        "transaction_uuid": "4b6b3a9b-9242-4d64-a268-59ac7041316d",
+        "amount": "101.00",
+        "tax_amount": "0.00",
+        "total_amount": "101.00",
+        "status": "failed",
+        "esewa_transaction_code": null,
+        "created_at": "2026-07-27T18:36:35.815Z",
+        "updated_at": "2026-07-27T18:37:51.177Z"
+    }
+},
+{
+    "model": "payments.order",
+    "pk": 5,
+    "fields": {
+        "student": [
+            "pygubiki@mailinator.com"
+        ],
+        "course": 3,
+        "transaction_uuid": "fd0620f7-e0b7-4930-ac1f-e589a49fa8a1",
+        "amount": "101.00",
+        "tax_amount": "0.00",
+        "total_amount": "101.00",
+        "status": "failed",
+        "esewa_transaction_code": null,
+        "created_at": "2026-07-27T18:41:06.367Z",
+        "updated_at": "2026-07-27T18:41:55.672Z"
+    }
+},
+{
+    "model": "payments.order",
+    "pk": 6,
+    "fields": {
+        "student": [
+            "nugedysora@mailinator.com"
+        ],
+        "course": 3,
+        "transaction_uuid": "f8e42241-633d-41c5-a17b-9af5b6336024",
+        "amount": "101.00",
+        "tax_amount": "0.00",
+        "total_amount": "101.00",
+        "status": "completed",
+        "esewa_transaction_code": "000GASG",
+        "created_at": "2026-07-27T18:50:10.178Z",
+        "updated_at": "2026-07-27T18:50:59.758Z"
+    }
+},
+{
+    "model": "payments.order",
+    "pk": 7,
+    "fields": {
+        "student": [
+            "tupuxyqih@mailinator.com"
+        ],
+        "course": 3,
+        "transaction_uuid": "e62ed919-7b19-4bbb-98a2-6d8c27e6d415",
+        "amount": "101.00",
+        "tax_amount": "0.00",
+        "total_amount": "101.00",
+        "status": "failed",
+        "esewa_transaction_code": null,
+        "created_at": "2026-07-27T19:10:38.188Z",
+        "updated_at": "2026-08-02T09:13:42.290Z"
+    }
+},
+{
+    "model": "payments.order",
+    "pk": 8,
+    "fields": {
+        "student": [
+            "wahuvilo@mailinator.com"
+        ],
+        "course": 3,
+        "transaction_uuid": "83a56006-0b30-4459-97f1-73a42ba769b3",
+        "amount": "101.00",
+        "tax_amount": "0.00",
+        "total_amount": "101.00",
+        "status": "completed",
+        "esewa_transaction_code": "000GBPW",
+        "created_at": "2026-07-30T17:24:02.617Z",
+        "updated_at": "2026-07-30T17:24:57.844Z"
+    }
+},
+{
+    "model": "payments.order",
+    "pk": 9,
+    "fields": {
+        "student": [
+            "pequra@mailinator.com"
+        ],
+        "course": 3,
+        "transaction_uuid": "75846515-0656-4d03-90b0-4a840621e5ca",
+        "amount": "101.00",
+        "tax_amount": "0.00",
+        "total_amount": "101.00",
+        "status": "completed",
+        "esewa_transaction_code": "000GBUL",
+        "created_at": "2026-07-31T06:45:33.974Z",
+        "updated_at": "2026-07-31T06:46:23.655Z"
+    }
+},
+{
+    "model": "payments.order",
+    "pk": 10,
+    "fields": {
+        "student": [
+            "pachhairajesh30@gmail.com"
+        ],
+        "course": 7,
+        "transaction_uuid": "aaeb5c17-af9a-4926-8b03-7687f752e3ed",
+        "amount": "205.00",
+        "tax_amount": "0.00",
+        "total_amount": "205.00",
+        "status": "completed",
+        "esewa_transaction_code": "000GC7G",
+        "created_at": "2026-08-01T17:50:07.702Z",
+        "updated_at": "2026-08-01T17:50:56.557Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2026-07-07T09:55:43.072Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "Data Science",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2026-07-07T09:56:00.634Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "category"
+        ],
+        "object_id": "2",
+        "object_repr": "Python Django",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2026-07-07T09:56:13.598Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "category"
+        ],
+        "object_id": "3",
+        "object_repr": "MERN stack",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2026-07-07T09:56:40.890Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "category"
+        ],
+        "object_id": "4",
+        "object_repr": "AI/ML",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2026-07-07T09:57:14.951Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "category"
+        ],
+        "object_id": "5",
+        "object_repr": "Dev ops",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2026-07-13T12:53:46.119Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "module"
+        ],
+        "object_id": "4",
+        "object_repr": "Full stack Python Django - Introduction to python",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"lesson\", \"object\": \"Introduction to python - Python Fundamentals\"}}, {\"changed\": {\"name\": \"lesson\", \"object\": \"Introduction to python - What is python?\", \"fields\": [\"Video url\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2026-07-17T17:18:46.367Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "module"
+        ],
+        "object_id": "4",
+        "object_repr": "Full stack Python Django - Introduction to python",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"lesson\", \"object\": \"Introduction to python - What is print?\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2026-07-17T17:19:32.754Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "module"
+        ],
+        "object_id": "4",
+        "object_repr": "Full stack Python Django - Introduction to python",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"lesson\", \"object\": \"Introduction to python - Python Fundamentals\", \"fields\": [\"Order\"]}}, {\"changed\": {\"name\": \"lesson\", \"object\": \"Introduction to python - What is print?\", \"fields\": [\"Order\"]}}, {\"changed\": {\"name\": \"lesson\", \"object\": \"Introduction to python - What is python?\", \"fields\": [\"Order\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2026-07-17T18:19:24.421Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "module"
+        ],
+        "object_id": "4",
+        "object_repr": "Full stack Python Django - Introduction to python",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"lesson\", \"object\": \"Introduction to python - What is print?\", \"fields\": [\"Video url\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2026-07-17T18:19:32.712Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "module"
+        ],
+        "object_id": "4",
+        "object_repr": "Full stack Python Django - Introduction to python",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2026-07-17T18:25:37.421Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "module"
+        ],
+        "object_id": "4",
+        "object_repr": "Full stack Python Django - Introduction to python",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"lesson\", \"object\": \"Introduction to python - What is print?\", \"fields\": [\"Video url\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2026-07-18T07:05:44.050Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "module"
+        ],
+        "object_id": "4",
+        "object_repr": "Full stack Python Django - Introduction to python",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"lesson\", \"object\": \"Introduction to python - What is print?\", \"fields\": [\"Video url\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2026-07-21T09:52:47.166Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "quizzes",
+            "quiz"
+        ],
+        "object_id": "1",
+        "object_repr": "Quiz: Module 1 Knowledge Check (Introduction to python)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"question\", \"object\": \"What is the output of type([]) in Python?\"}}, {\"added\": {\"name\": \"question\", \"object\": \"Which of the following data types in Python is imm\"}}, {\"added\": {\"name\": \"question\", \"object\": \"What will be the output of the slice expression [1\"}}, {\"added\": {\"name\": \"question\", \"object\": \"Which keyword is used to define a function in Pyth\"}}, {\"added\": {\"name\": \"question\", \"object\": \"What is the result of 10 // 3 in Python 3?\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2026-07-21T09:55:47.037Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "quizzes",
+            "question"
+        ],
+        "object_id": "1",
+        "object_repr": "What is the output of type([]) in Python?",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"choice\", \"object\": \"3.3333\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"3.0\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"3\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"1\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2026-07-21T09:56:55.586Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "quizzes",
+            "question"
+        ],
+        "object_id": "2",
+        "object_repr": "Which of the following data types in Python is imm",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"choice\", \"object\": \"<class 'array'>\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"<class 'list'>\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"<class 'tuple'>\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"<class 'dict'>\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2026-07-21T09:58:14.269Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "quizzes",
+            "question"
+        ],
+        "object_id": "2",
+        "object_repr": "Which of the following data types in Python is imm",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"array\", \"fields\": [\"Text\"]}}, {\"changed\": {\"name\": \"choice\", \"object\": \"list\", \"fields\": [\"Text\", \"Is correct\"]}}, {\"changed\": {\"name\": \"choice\", \"object\": \"tuple\", \"fields\": [\"Text\", \"Is correct\"]}}, {\"changed\": {\"name\": \"choice\", \"object\": \"dict\", \"fields\": [\"Text\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2026-07-21T09:59:33.269Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "quizzes",
+            "question"
+        ],
+        "object_id": "3",
+        "object_repr": "What will be the output of the slice expression [1",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"choice\", \"object\": \"[1, 2, 3]\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"[2, 3, 4]\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"C) [2, 3, 4, 5]\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"[1, 2, 3, 4]\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2026-07-21T10:00:11.062Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "quizzes",
+            "question"
+        ],
+        "object_id": "4",
+        "object_repr": "Which keyword is used to define a function in Pyth",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"choice\", \"object\": \"function\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"func\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"define\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"def\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2026-07-21T10:00:42.071Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "quizzes",
+            "question"
+        ],
+        "object_id": "5",
+        "object_repr": "What is the result of 10 // 3 in Python 3?",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"choice\", \"object\": \"3.33333333333333\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"3.0\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"3\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"1\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2026-07-21T10:01:56.163Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "quizzes",
+            "question"
+        ],
+        "object_id": "1",
+        "object_repr": "What is the output of type([]) in Python?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"choice\", \"object\": \"<class 'array'>\", \"fields\": [\"Text\"]}}, {\"changed\": {\"name\": \"choice\", \"object\": \"<class 'list'>\", \"fields\": [\"Text\", \"Is correct\"]}}, {\"changed\": {\"name\": \"choice\", \"object\": \"<class 'tuple'>\", \"fields\": [\"Text\", \"Is correct\"]}}, {\"changed\": {\"name\": \"choice\", \"object\": \"<class 'dict'>\", \"fields\": [\"Text\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2026-07-27T18:26:35.945Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "course"
+        ],
+        "object_id": "3",
+        "object_repr": "Full stack Python Django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2026-08-02T09:07:22.080Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "course"
+        ],
+        "object_id": "4",
+        "object_repr": "Master Data Science with Python",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2026-08-02T09:07:29.801Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "course"
+        ],
+        "object_id": "6",
+        "object_repr": "Master Data Science with Python",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2026-08-02T09:07:37.435Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "course"
+        ],
+        "object_id": "5",
+        "object_repr": "Master Data Science with Python",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2026-08-02T10:08:26.468Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "module"
+        ],
+        "object_id": "8",
+        "object_repr": "Full stack Python Django - Frontend Development",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"lesson\", \"object\": \"Frontend Development - HTML & CSS\", \"fields\": [\"Video url\", \"Pdf file\"]}}, {\"changed\": {\"name\": \"lesson\", \"object\": \"Frontend Development - Django Web Development\", \"fields\": [\"Pdf file\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2026-08-02T10:26:47.247Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "module"
+        ],
+        "object_id": "8",
+        "object_repr": "Full stack Python Django - Frontend Development",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"lesson\", \"object\": \"Frontend Development - HTML & CSS\", \"fields\": [\"Video url\"]}}, {\"changed\": {\"name\": \"lesson\", \"object\": \"Frontend Development - Django Web Development\", \"fields\": [\"Video url\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2026-08-02T10:30:19.283Z",
+        "user": [
+            "rajesh@gmail.com"
+        ],
+        "content_type": [
+            "courses",
+            "module"
+        ],
+        "object_id": "8",
+        "object_repr": "Full stack Python Django - Frontend Development",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}
+]
