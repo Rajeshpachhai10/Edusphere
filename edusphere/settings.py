@@ -28,6 +28,8 @@ SECRET_KEY = config("SECRET_KEY")
 
 DEBUG = config("DEBUG", default=False, cast=bool)
 
+
+
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
@@ -50,15 +52,16 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
+    "cloudinary_storage",
     "django.contrib.staticfiles",
-    "accounts" ,
-    "courses" ,
-    "enrollments" ,
+    "cloudinary",
+    "accounts",
+    "courses",
+    "enrollments",
     "quizzes",
     "forums",
     "payments",
     "dashboard",
-
 ]
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
@@ -174,9 +177,16 @@ STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Enables compression and efficient caching in production
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': config('CLOUDINARY_CLOUD_NAME'),
+    'API_KEY': config('CLOUDINARY_API_KEY'),
+    'API_SECRET': config('CLOUDINARY_API_SECRET'),
+}
+
 STORAGES = {
     "default": {
-        "BACKEND": "django.core.files.storage.FileSystemStorage",
+        "BACKEND": "cloudinary_storage.storage.MediaCloudinaryStorage",
     },
     "staticfiles": {
         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
